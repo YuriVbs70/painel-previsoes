@@ -1,0 +1,755 @@
+{
+  "previsoes": [
+    {
+      "id": "P-0001",
+      "afirmacao": "Copom mantém a meta Selic em 13,75% na reunião de 3-4/11/2026",
+      "tema": "juros",
+      "escala": "brasil",
+      "prazo": "2026-11-05",
+      "criterio": "Comunicado do Copom (bcb.gov.br/controleinflacao/comunicadoscopom): meta decidida = 13,75%",
+      "status": "publicada",
+      "prob": 63.0,
+      "adv": 63.0,
+      "critica": "Opções Copom B3 de 26/10 dão manter 63,1%; taxa base de ~14% de pausa no 5º corte não vale após choque cambial de 9%",
+      "conf": null,
+      "calc": {
+        "publicado": 63.0,
+        "centro": 63.0,
+        "min": 63.0,
+        "max": 63.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [
+        {
+          "alvo_id": "P-0001",
+          "campo": "criação",
+          "antes": null,
+          "depois": "criado",
+          "motivo": "migração: data disponível no registro",
+          "autor": "Pesquisador preditivo",
+          "quando": "2026-10-31 11:42:41"
+        }
+      ],
+      "apoios": "S-0012"
+    },
+    {
+      "id": "P-0009",
+      "afirmacao": "A NVIDIA publicará em 17/11/2026 resultados do 3º trimestre fiscal de 2027 com receita consolidada pelo menos 10% superior à do trimestre fiscal imediatamente anterior.",
+      "tema": "tecnologia",
+      "escala": "global",
+      "prazo": "2026-11-17",
+      "criterio": "[NVIDIA, resultados trimestrais](https://investor.nvidia.com/financial-info/quarterly-results-and-annual-reports/default.aspx): receita GAAP consolidada Q3 FY2027 / Q2 FY2027 − 1 ≥ 0,10, e publicação datada de 17/11 nos EUA. Agenda no [comunicado de 28/10](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx). Arquivamento 8-K na [SEC, CIK 1045810](https://www.sec.gov/edgar/browse/?CIK=1045810&owner=exclude) confere o registro, mas replica as contas da empresa; segunda medição independente: não encontrada.",
+      "status": "publicada",
+      "prob": 65.0,
+      "adv": 88.0,
+      "critica": "Guia da própria NVIDIA (26/08/2026): Q3 FY27 = US$108,0 bi ±2% sobre Q2 de 96,2 bi = +12,3%; o limiar de 10% (105,8 bi) fica abaixo até do piso do guia; analistas esperavam 104,2 e o guia veio acima; a empresa costuma bater o meio do guia",
+      "conf": null,
+      "calc": {
+        "publicado": 65.0,
+        "centro": 65.0,
+        "min": 65.0,
+        "max": 65.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [
+        {
+          "alvo_id": "P-0009",
+          "campo": "criação",
+          "antes": null,
+          "depois": "criado",
+          "motivo": "migração: data disponível no registro",
+          "autor": "Pesquisador preditivo",
+          "quando": "2026-10-31 21:33:20"
+        }
+      ],
+      "apoios": "S-0067,S-0112,C-45,E-14"
+    },
+    {
+      "id": "P-0002",
+      "afirmacao": "IPCA-15 Brasil de novembro/2026 com variação mensal acima de 0,32%",
+      "tema": "economia",
+      "escala": "brasil",
+      "prazo": "2026-11-30",
+      "criterio": "IBGE/SIDRA tabela 7062, período 202611, índice geral, primeira divulgação",
+      "status": "publicada",
+      "prob": 70.0,
+      "adv": 70.0,
+      "critica": "Aguenta: taxa base condicional 12/16 (75%) e câmbio empurra pra cima; risco é parte do repasse de 26/10 cair fora da janela de coleta",
+      "conf": null,
+      "calc": {
+        "publicado": 70.0,
+        "centro": 70.0,
+        "min": 70.0,
+        "max": 70.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [
+        {
+          "alvo_id": "P-0002",
+          "campo": "criação",
+          "antes": null,
+          "depois": "criado",
+          "motivo": "migração: data disponível no registro",
+          "autor": "Pesquisador preditivo",
+          "quando": "2026-10-31 11:42:41"
+        }
+      ],
+      "apoios": "S-0012"
+    },
+    {
+      "id": "P-0014",
+      "afirmacao": "O saldo nacional do Novo Caged será estritamente positivo em cada um dos meses de setembro, outubro e novembro de 2026.",
+      "tema": "economia",
+      "escala": "brasil",
+      "prazo": "2026-11-30",
+      "criterio": "[MTE, Novo Caged](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/novo-caged), tabelas nacionais: admissões menos desligamentos >0 em 202609, 202610 e 202611, cada mês na primeira divulgação correspondente. Conferência esperada até 28/02/2027 se houver atraso de publicação. Asserttem e CNDL/SPC são pesquisas de intenção distintas, não segunda aferição do mesmo saldo.",
+      "status": "publicada",
+      "prob": 72.0,
+      "adv": 80.0,
+      "critica": "No Novo Caged (2020-2025) set, out e nov foram positivos todo ano; negativos só em recessão (2015-16); agosto/2026 +165.827",
+      "conf": null,
+      "calc": {
+        "publicado": 72.0,
+        "centro": 72.0,
+        "min": 72.0,
+        "max": 72.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [
+        {
+          "alvo_id": "P-0014",
+          "campo": "criação",
+          "antes": null,
+          "depois": "criado",
+          "motivo": "migração: data disponível no registro",
+          "autor": "Pesquisador preditivo",
+          "quando": "2026-10-31 21:33:28"
+        }
+      ],
+      "apoios": "S-0083,S-0084,S-0085,S-0086,S-0087,S-0088,S-0089,S-0102,C-47,E-24"
+    },
+    {
+      "id": "P-0016",
+      "afirmacao": "Nas famílias CBO 4110 e 4223 somadas, a participação de pessoas de 18–29 anos nas admissões formais brasileiras de setembro–novembro/2026 cairá pelo menos 2 pontos percentuais ante setembro–novembro/2025.",
+      "tema": "IA",
+      "escala": "brasil",
+      "prazo": "2026-11-30",
+      "criterio": "[Microdados do Novo Caged, MTE](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/microdados-rais-e-caged), arquivos de movimentações: selecionar admissões, idade conhecida ≥18 e famílias CBO 4110/4223; p=100×admissões de 18–29/admissões de todas as idades ≥18 nesses grupos e meses. Decide p2026−p2025 ≤−2,00 p.p., sem arredondar antes. Usar primeiro conjunto completo de cada ano com suas retificações disponíveis, congelado na conferência até 31/03/2027. Conferir leiaute para excluir exclusões/duplicações. EXT-STAN e EXT-IBRE corroboram a hipótese por outras bases, não o valor dessa célula.",
+      "status": "publicada",
+      "prob": 55.00000000000001,
+      "adv": 40.0,
+      "critica": "Limiar de 2 p.p. num ano é movimento grande; taxa base é calculável dos microdados de 2021-2025 (quantas vezes caiu ≥2 p.p. antes da IA) e não foi calculada; telemarketing pode encolher pra todas as idades sem mexer na participação; escolha das 2 CBOs mais expostas",
+      "conf": null,
+      "calc": {
+        "publicado": 55.00000000000001,
+        "centro": 55.00000000000001,
+        "min": 55.00000000000001,
+        "max": 55.00000000000001,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [
+        {
+          "alvo_id": "P-0016",
+          "campo": "criação",
+          "antes": null,
+          "depois": "criado",
+          "motivo": "migração: data disponível no registro",
+          "autor": "Pesquisador preditivo",
+          "quando": "2026-10-31 21:33:28"
+        }
+      ],
+      "apoios": "S-0090,S-0091,C-46,E-22"
+    },
+    {
+      "id": "P-0003",
+      "afirmacao": "Última cotação de balcão da soja da Copagril em Marechal Cândido Rondon com data em novembro/2026 igual ou acima de R$136/sc",
+      "tema": "economia",
+      "escala": "regional",
+      "prazo": "2026-12-02",
+      "criterio": "copagril.com.br/historico-de-precos, soja, último registro de 01 a 30/11/2026",
+      "status": "publicada",
+      "prob": 45.0,
+      "adv": 42.0,
+      "critica": "Subir qualquer valor ocorreu em 9/16 anos (56%) e o limiar de +1,49% é quase o dobro da mediana de +0,8%, então não pode ficar acima de 56%",
+      "conf": null,
+      "calc": {
+        "publicado": 45.0,
+        "centro": 45.0,
+        "min": 45.0,
+        "max": 45.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [
+        {
+          "alvo_id": "P-0003",
+          "campo": "criação",
+          "antes": null,
+          "depois": "criado",
+          "motivo": "migração: data disponível no registro",
+          "autor": "Pesquisador preditivo",
+          "quando": "2026-10-31 11:42:41"
+        }
+      ],
+      "apoios": "S-0012"
+    },
+    {
+      "id": "P-0010",
+      "afirmacao": "Em 02/12/2026 estará juridicamente aplicável na UE a obrigação de marcação de conteúdo sintético preexistente alcançado pelo prazo de transição do AI Act alterado, sem novo adiamento desse prazo.",
+      "tema": "tecnologia",
+      "escala": "global",
+      "prazo": "2026-12-02",
+      "criterio": "Texto consolidado e atos modificadores no [EUR-Lex, Regulamento 2026/1744](https://eur-lex.europa.eu/eli/reg/2026/1744/oj): data de aplicação do prazo de transição = 02/12/2026 e número de atos supervenientes que a adiam = 0. Confrontar com o [calendário do AI Act](https://ai-act-service-desk.ec.europa.eu/en/ai-act/eu-ai-act-implementation-timeline). O [Parlamento, acordo de maio/2026](https://www.europarl.europa.eu/news/en/press-room/20260427IPR42011/) documenta a mudança; é outro participante do mesmo processo, não teste independente de cumprimento.",
+      "status": "publicada",
+      "prob": 95.0,
+      "adv": 93.0,
+      "critica": "Nada contra no prazo; o rascunho admite não ter lido o texto consolidado artigo a artigo, e a definição de \"conteúdo sintético preexistente\" pode não bater com o texto",
+      "conf": null,
+      "calc": {
+        "publicado": 95.0,
+        "centro": 95.0,
+        "min": 95.0,
+        "max": 95.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [
+        {
+          "alvo_id": "P-0010",
+          "campo": "criação",
+          "antes": null,
+          "depois": "criado",
+          "motivo": "migração: data disponível no registro",
+          "autor": "Pesquisador preditivo",
+          "quando": "2026-10-31 21:33:20"
+        }
+      ],
+      "apoios": "S-0070,S-0071"
+    },
+    {
+      "id": "P-0004",
+      "afirmacao": "Preço médio de revenda do diesel S10 no Paraná (ANP) na semana 22-28/11/2026 igual ou acima de R$7,40/L",
+      "tema": "economia",
+      "escala": "regional",
+      "prazo": "2026-12-11",
+      "criterio": "ANP levantamento semanal de preços, ÓLEO DIESEL S10, UF PR, semana 22-28/11/2026",
+      "status": "publicada",
+      "prob": 57.99999999999999,
+      "adv": 57.99999999999999,
+      "critica": "Subvenção de R$2,12 prorrogada em 27/10 por 30 dias vence perto de 26/11, colada na semana medida; governo acabou de prorrogar pra segurar preço; taxa base 8/13 é fraca sem reajuste Petrobras",
+      "conf": null,
+      "calc": {
+        "publicado": 57.99999999999999,
+        "centro": 57.99999999999999,
+        "min": 57.99999999999999,
+        "max": 57.99999999999999,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [
+        {
+          "alvo_id": "P-0004",
+          "campo": "criação",
+          "antes": null,
+          "depois": "criado",
+          "motivo": "migração: data disponível no registro",
+          "autor": "Pesquisador preditivo",
+          "quando": "2026-10-31 11:42:41"
+        }
+      ],
+      "apoios": "S-0009,S-0012"
+    },
+    {
+      "id": "P-0006",
+      "afirmacao": "IPO da Anthropic NÃO precificado publicamente até 31/12/2026 (inclui adiamento/retirada)",
+      "tema": "IA",
+      "escala": "global",
+      "prazo": "2026-12-31",
+      "criterio": "Preço final de oferta em prospecto definitivo SEC/EDGAR CIK 2130357 ou anúncio Anthropic até o prazo => falso",
+      "status": "publicada",
+      "prob": 30.0,
+      "adv": 30.0,
+      "critica": "Aguenta: S-1 público em 26/10 e roadshow reportado na semana de 9/11 dão folga até dezembro, mas a janela útil encolhe pra ~4 semanas por causa do fim de ano; receita +45% sequencial sustenta demanda pela oferta",
+      "conf": null,
+      "calc": {
+        "publicado": 30.0,
+        "centro": 30.0,
+        "min": 30.0,
+        "max": 30.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [
+        {
+          "alvo_id": "P-0006",
+          "campo": "criação",
+          "antes": null,
+          "depois": "criado",
+          "motivo": "migração: data disponível no registro",
+          "autor": "Pesquisador preditivo",
+          "quando": "2026-10-31 13:53:26"
+        }
+      ],
+      "apoios": "S-0046,S-0049,C-34,C-37"
+    },
+    {
+      "id": "P-0008",
+      "afirmacao": "Média dos últimos 20 pregões de 2026 do STAR50 (000688) ≥30% abaixo do maior fechamento de jan-out/2026",
+      "tema": "IA",
+      "escala": "global",
+      "prazo": "2026-12-31",
+      "criterio": "Série oficial China Securities Index 000688, 1 - média_final_20/máx_jan_out >= 0,30",
+      "status": "publicada",
+      "prob": 75.0,
+      "adv": 75.0,
+      "critica": "Aguenta: a ~40% abaixo do pico, o índice precisa subir ~17% sustentado até meados de dezembro pra falhar; o STAR50 já fez altas assim em semanas com estímulo do governo (set/2024), então o risco é real mas minoritário; o nível de 40% é de 26/10 e o pico numérico não foi encontrado, então confira o fechamento atual antes de publicar",
+      "conf": null,
+      "calc": {
+        "publicado": 75.0,
+        "centro": 75.0,
+        "min": 75.0,
+        "max": 75.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [
+        {
+          "alvo_id": "P-0008",
+          "campo": "criação",
+          "antes": null,
+          "depois": "criado",
+          "motivo": "migração: data disponível no registro",
+          "autor": "Pesquisador preditivo",
+          "quando": "2026-10-31 13:53:30"
+        }
+      ],
+      "apoios": "S-0038,S-0057"
+    },
+    {
+      "id": "P-0015",
+      "afirmacao": "O saldo nacional do Novo Caged de dezembro de 2026 será negativo.",
+      "tema": "economia",
+      "escala": "brasil",
+      "prazo": "2026-12-31",
+      "criterio": "[MTE, Novo Caged](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/novo-caged), primeira divulgação de dezembro/2026: saldo Brasil <0 vínculos. Conferir após a publicação, esperada em 2027; não usar novembro como substituto. Referência histórica verificada no [sumário executivo de dezembro/2025](https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/novo-caged/2025/dezembro/sumario-executivo_-acumulado-e-dezembro-2025.pdf). Segunda medição independente desse saldo administrativo: não encontrada.",
+      "status": "publicada",
+      "prob": 96.0,
+      "adv": 97.0,
+      "critica": "24/24 é mecanismo estrutural (fim de temporários, ano letivo, entressafra), não moeda; Laplace trata como sorteio e subestima",
+      "conf": null,
+      "calc": {
+        "publicado": 96.0,
+        "centro": 96.0,
+        "min": 96.0,
+        "max": 96.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [
+        {
+          "alvo_id": "P-0015",
+          "campo": "criação",
+          "antes": null,
+          "depois": "criado",
+          "motivo": "migração: data disponível no registro",
+          "autor": "Pesquisador preditivo",
+          "quando": "2026-10-31 21:33:28"
+        }
+      ],
+      "apoios": "S-0083,S-0088,S-0089,C-47,E-24"
+    },
+    {
+      "id": "P-0017",
+      "afirmacao": "Pelo menos dois entre Marechal Cândido Rondon, Toledo e Cascavel terão saldo Caged acumulado positivo em setembro–novembro/2026, e as três agências municipais anunciarão juntas pelo menos 1.000 vagas em uma mesma semana de dezembro.",
+      "tema": "economia",
+      "escala": "regional",
+      "prazo": "2026-12-31",
+      "criterio": "[MTE, Novo Caged](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/novo-caged), códigos IBGE 4114609, 4127700 e 4104808: ≥2 municípios com soma de saldos 202609–202611 >0, na divulgação de novembro. Para vagas, [Emprega Brasil/SINE](https://empregabrasil.mte.gov.br/) ou boletins datados das respectivas prefeituras: soma ≥1.000 em uma semana ISO com segunda-feira em dezembro/2026; usar o boletim mais recente de cada agência nessa semana, sem somar dias, e contar só postos localizados nos três municípios, retirando repetições identificáveis. Segunda fonte: recrutamento direto das cooperativas, como [Frimesa, 15/09/2026](https://frimesa.com.br/frimesa-anuncia-a-abertura-de-700-vagas-de-emprego-no-parana/); não substitui os boletins locais.",
+      "status": "publicada",
+      "prob": 65.0,
+      "adv": 65.0,
+      "critica": "Números somados atuais (411+1.103+1.549) já passam de 1.000, então a perna de vagas depende de haver boletim das 3 agências na mesma semana; Caged municipal é fonte única e ruidoso (Rondon -76 com centenas de vagas)",
+      "conf": null,
+      "calc": {
+        "publicado": 65.0,
+        "centro": 65.0,
+        "min": 65.0,
+        "max": 65.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [
+        {
+          "alvo_id": "P-0017",
+          "campo": "criação",
+          "antes": null,
+          "depois": "criado",
+          "motivo": "migração: data disponível no registro",
+          "autor": "Pesquisador preditivo",
+          "quando": "2026-10-31 21:33:29"
+        }
+      ],
+      "apoios": "S-0092,S-0093,S-0094,S-0095,S-0096,S-0097,S-0098,S-0099,S-0100,S-0101,S-0102,C-48,C-49,E-23"
+    },
+    {
+      "id": "P-0018",
+      "afirmacao": "Entre 01/11 e 31/12/2026, uma restrição por Newcastle passará a impedir compras chinesas de produtos avícolas do Paraná por pelo menos 14 dias consecutivos, e plantas avícolas do oeste do PR anunciarão suspensão ou demissão de pelo menos 1.000 empregados por causa desse choque.",
+      "tema": "economia",
+      "escala": "regional",
+      "prazo": "2026-12-31",
+      "criterio": "[Mapa, restrições de Newcastle](https://www.gov.br/agricultura/pt-br/assuntos/noticias/2026/doenca-de-newcastle-nova-atualizacao-sobre-as-restricoes-as-exportacoes/) e ato do importador no [GACC](http://english.customs.gov.cn/): restrição abrangendo PR ≥14 dias até o prazo. Segunda perna: atos sindicais ou acordos trabalhistas e comunicado das empresas identificando Newcastle/restrição comercial como causa e ≥1.000 pessoas distintas em plantas avícolas da mesorregião Oeste Paranaense, sob suspensão temporária ou demissão; não somar a mesma pessoa em anúncios repetidos. Duas declarações que copiem o mesmo release não bastam para triangulação.",
+      "status": "publicada",
+      "prob": 8.0,
+      "adv": 5.0,
+      "critica": "Restrição chinesa pode já estar valendo antes de 01/11 (\"passará a\" fica ambíguo); férias coletivas contam como suspensão? Em embargos passados as empresas redirecionaram vendas e não houve corte de 1.000 no oeste (a confirmar com Historiador)",
+      "conf": null,
+      "calc": {
+        "publicado": 8.0,
+        "centro": 8.0,
+        "min": 8.0,
+        "max": 8.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [
+        {
+          "alvo_id": "P-0018",
+          "campo": "criação",
+          "antes": null,
+          "depois": "criado",
+          "motivo": "migração: data disponível no registro",
+          "autor": "Pesquisador preditivo",
+          "quando": "2026-10-31 21:33:29"
+        }
+      ],
+      "apoios": "S-0103,S-0104,S-0105,S-0098,S-0099,S-0100,S-0101,C-50,C-51,C-52,E-20,E-23,E-13"
+    },
+    {
+      "id": "P-0019",
+      "afirmacao": "A última estimativa do Deral publicada até 31/12/2026 para a produção paranaense de soja 2026/27 será pelo menos 15% inferior aos 22,75 milhões de toneladas estimados em 29/10.",
+      "tema": "clima",
+      "escala": "regional",
+      "prazo": "2026-12-31",
+      "criterio": "[Deral, estimativa de safra](https://www.agricultura.pr.gov.br/deral/Estimativa-de-Safra): última estimativa estadual publicada entre 01/11 e 31/12/2026 ≤19,3375 milhões t, usando a precisão disponível. Base de comparação no [boletim/notícia de 29/10/2026](https://www.agricultura.pr.gov.br/Noticia/Safra-20262027-producao-de-soja-tem-previsao-de-aumento-em-4-no-Parana). Cruzar clima com [CPC/NOAA, boletim fixo de 08/10/2026](https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_disc_oct2026/ensodisc.shtml) e observações privadas de chuva; Conab serve como projeção alternativa, sem substituir o limiar Deral. Não usar produção final divulgada em 2027.",
+      "status": "publicada",
+      "prob": 10.0,
+      "adv": 5.0,
+      "critica": "Corte ≥15% em nov-dez é raro porque a lavoura mal foi plantada e o Deral revisa devagar; em 29/10 previa alta e 88% das lavouras boas; El Niño no PR costuma ser excesso de chuva, que pesa mais na colheita; contraponto: 2023/24 (El Niño) teve perda no oeste por calor (Historiador confirma o tamanho das revisões de nov-dez em 2021 e 2023)",
+      "conf": null,
+      "calc": {
+        "publicado": 10.0,
+        "centro": 10.0,
+        "min": 10.0,
+        "max": 10.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [
+        {
+          "alvo_id": "P-0019",
+          "campo": "criação",
+          "antes": null,
+          "depois": "criado",
+          "motivo": "migração: data disponível no registro",
+          "autor": "Pesquisador preditivo",
+          "quando": "2026-10-31 21:33:29"
+        }
+      ],
+      "apoios": "S-0110,S-0111,S-0114,C-53,E-07"
+    },
+    {
+      "id": "P-0020",
+      "afirmacao": "A Moody’s anunciará corte de pelo menos dois níveis na nota soberana de longo prazo em moeda estrangeira do Brasil, em uma ou mais ações entre 01/11 e 31/12/2026, citando deterioração fiscal como motivo.",
+      "tema": "economia",
+      "escala": "brasil",
+      "prazo": "2026-12-31",
+      "criterio": "[Moody’s Ratings](https://ratings.moodys.com/), comunicados do emissor Governo do Brasil: perda acumulada ≥2 posições na escala ordinal da nota soberana de longo prazo em moeda estrangeira, tomando a nota vigente em 31/10 como base, com justificativa fiscal expressa. Perspectiva e revisão para rebaixamento não contam como níveis. Confrontar com manifestação do [Tesouro Nacional](https://www.gov.br/tesouronacional/pt-br) e cobertura com apuração própria. Relatório primário de 27/10 e nota-base exata: não encontrados nesta pesquisa; o alerta consta em S-0108 e na [CNN, 27/10/2026](https://www.cnnbrasil.com.br/economia/money/macroeconomia/moodys-ve-ajustes-graduais-na-politica-fiscal-do-novo-governo-lula/).",
+      "status": "publicada",
+      "prob": 4.0,
+      "adv": 1.0,
+      "critica": "Moody's quase nunca corta 2 níveis sem antes pôr perspectiva negativa ou revisão; o alerta de 27/10 fala em \"ajustes graduais\", nem perspectiva negativa; fonte única (CNN), relatório primário não achado",
+      "conf": null,
+      "calc": {
+        "publicado": 4.0,
+        "centro": 4.0,
+        "min": 4.0,
+        "max": 4.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [
+        {
+          "alvo_id": "P-0020",
+          "campo": "criação",
+          "antes": null,
+          "depois": "criado",
+          "motivo": "migração: data disponível no registro",
+          "autor": "Pesquisador preditivo",
+          "quando": "2026-10-31 21:33:29"
+        }
+      ],
+      "apoios": "S-0107,S-0108,C-55"
+    },
+    {
+      "id": "P-0021",
+      "afirmacao": "Haverá novo ataque militar dos EUA a território iraniano entre 01/11 e 31/12/2026 e, depois dele, a média nacional semanal de revenda do diesel S10 ficará pelo menos 20% acima da semana de 25–31/10/2026 em alguma semana encerrada até 31/12.",
+      "tema": "economia",
+      "escala": "brasil",
+      "prazo": "2026-12-31",
+      "criterio": "Confirmação do ataque por [Departamento de Defesa dos EUA](https://www.defense.gov/News/) e apuração própria de agência internacional; alerta inicial em [AP, republicação de 29/10/2026](https://www.aol.com/articles/us-warns-allies-prepare-possible-224412000.html). Preço na [ANP, série histórica do levantamento de preços](https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/precos-revenda-e-de-distribuicao-combustiveis/serie-historica-do-levantamento-de-precos): produto ÓLEO DIESEL S10, Brasil, média de revenda; máximo de Psemana/P25–31out−1 ≥0,20, somente semanas iniciadas após o ataque e encerradas até o prazo. Valor-base da semana ainda não encontrado; não imputado. Petrobras pode corroborar repasse na refinaria, que é outra etapa de preço.",
+      "status": "publicada",
+      "prob": 7.000000000000001,
+      "adv": 2.0,
+      "critica": "Ataques de jun/2025 ao Irã: Brent subiu cerca de 10% e devolveu em dias; diesel de bomba no Brasil +20% em semanas só aconteceu em 2022 (Ucrânia), com Brent sustentado bem alto e reajuste grande da Petrobras; alerta da AP é fonte única (dois diplomatas, um veículo)",
+      "conf": null,
+      "calc": {
+        "publicado": 7.000000000000001,
+        "centro": 7.000000000000001,
+        "min": 7.000000000000001,
+        "max": 7.000000000000001,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [
+        {
+          "alvo_id": "P-0021",
+          "campo": "criação",
+          "antes": null,
+          "depois": "criado",
+          "motivo": "migração: data disponível no registro",
+          "autor": "Pesquisador preditivo",
+          "quando": "2026-10-31 21:33:29"
+        }
+      ],
+      "apoios": "S-0109,C-54"
+    },
+    {
+      "id": "P-0022",
+      "afirmacao": "Entre 01/11 e 31/12/2026 será divulgado pelo menos um ciberataque iniciado nessa janela contra banco autorizado pelo BC ou órgão público brasileiro, com uso de IA na ofensiva comprovado tecnicamente, e vazamento de dados de pelo menos 1 milhão de pessoas ou indisponibilidade de serviço essencial por pelo menos 48 horas contínuas.",
+      "tema": "tecnologia",
+      "escala": "brasil",
+      "prazo": "2026-12-31",
+      "criterio": "Relatório técnico público da vítima ou equipe forense identificada, mais registro ou confirmação em [CTIR Gov](https://www.gov.br/ctir/pt-br), [CERT.br](https://www.cert.br/) ou [ANPD](https://www.gov.br/anpd/pt-br): ≥1 incidente com evidência de IA usada para reconhecimento, exploração, código malicioso ou engenharia social; exige ≥1.000.000 pessoas únicas com dados efetivamente exfiltrados OU ≥48h contínuas de indisponibilidade de função central de pagamento, benefício, saúde, arrecadação ou identidade. Exigir laudo externo ou evidência técnica verificável além da declaração da vítima. IA usada apenas na defesa, falha descoberta com IA ou alegação do atacante não satisfazem.",
+      "status": "publicada",
+      "prob": 4.0,
+      "adv": 2.0,
+      "critica": "Atribuição técnica pública de IA ofensiva é raríssima no mundo e laudo forense leva meses; exigir ataque E divulgação com laudo dentro de 61 dias derruba a chance",
+      "conf": null,
+      "calc": {
+        "publicado": 4.0,
+        "centro": 4.0,
+        "min": 4.0,
+        "max": 4.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [
+        {
+          "alvo_id": "P-0022",
+          "campo": "criação",
+          "antes": null,
+          "depois": "criado",
+          "motivo": "migração: data disponível no registro",
+          "autor": "Pesquisador preditivo",
+          "quando": "2026-10-31 21:33:29"
+        }
+      ],
+      "apoios": "S-0063,S-0064,S-0066,S-0113,C-43,C-44,C-56,E-18"
+    },
+    {
+      "id": "P-0005",
+      "afirmacao": "Casos prováveis de dengue somados da 10ª RS (Cascavel) e 20ª RS (Toledo), início de sintomas dez/2026-fev/2027, maiores que dez/2025-fev/2026",
+      "tema": "clima",
+      "escala": "regional",
+      "prazo": "2027-05-31",
+      "criterio": "SESA-PR boletins da dengue e relatório automatizado, soma por município das 2 RS, por início de sintomas",
+      "status": "publicada",
+      "prob": 57.99999999999999,
+      "adv": 45.0,
+      "critica": "Historiador 31/10: 25/26 teve 2.078 casos, acima da mediana de 1.523, então não foi temporada fraca; só 3 de 7 temporadas (19/20, 23/24, 24/25) passaram de 2.078 e os anos calmos ficam entre 265 e 480; a série é bimodal e vem caindo desde o pico de 23/24",
+      "conf": null,
+      "calc": {
+        "publicado": 57.99999999999999,
+        "centro": 57.99999999999999,
+        "min": 57.99999999999999,
+        "max": 57.99999999999999,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [
+        {
+          "alvo_id": "P-0005",
+          "campo": "criação",
+          "antes": null,
+          "depois": "criado",
+          "motivo": "migração: data disponível no registro",
+          "autor": "Pesquisador preditivo",
+          "quando": "2026-10-31 11:42:41"
+        }
+      ],
+      "apoios": ""
+    },
+    {
+      "id": "P-0011",
+      "afirmacao": "O plenário da Câmara dos Deputados aprovará o texto principal do PL 2338/2023, ou substitutivo formalmente vinculado a ele, até 30/06/2027.",
+      "tema": "tecnologia",
+      "escala": "brasil",
+      "prazo": "2027-06-30",
+      "criterio": "[Ficha do PL 2338, proposição 2487262](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262), ata e resultado da sessão: número de aprovações do texto principal no plenário ≥1 entre 01/11/2026 e 30/06/2027. Aprovar urgência, requerimento ou só parecer de comissão não basta. Uma reportagem com presença própria na sessão pode corroborar; segunda fonte independente sobre votação futura: ainda inexistente.",
+      "status": "publicada",
+      "prob": 60.0,
+      "adv": 30.0,
+      "critica": "PL 2338 aprovado no Senado em dez/2024 e quase 2 anos parado na comissão especial sem parecer; nova legislatura em fev/2027 troca mesa e comissões; precedentes de lei digital grande na Câmara (PL 2630 morreu) são lentos",
+      "conf": null,
+      "calc": {
+        "publicado": 60.0,
+        "centro": 60.0,
+        "min": 60.0,
+        "max": 60.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [
+        {
+          "alvo_id": "P-0011",
+          "campo": "criação",
+          "antes": null,
+          "depois": "criado",
+          "motivo": "migração: data disponível no registro",
+          "autor": "Pesquisador preditivo",
+          "quando": "2026-10-31 21:33:20"
+        }
+      ],
+      "apoios": "S-0072,S-0073,C-57"
+    },
+    {
+      "id": "P-0007",
+      "afirmacao": "EUA atingem 2 dos 3 gatilhos da régua da bolha de IA (corte de capex por demanda fraca; receita de IA parada 2 tri; Nasdaq Composite >20% abaixo do pico por 2 meses) até 31/10/2027",
+      "tema": "IA",
+      "escala": "global",
+      "prazo": "2027-10-31",
+      "criterio": "IR de MSFT/GOOGL/AMZN/META e FRED NASDAQCOM: >= 2 de 3 gatilhos (Nasdaq > 20% abaixo do pico por >= 2 meses)",
+      "status": "publicada",
+      "prob": 25.0,
+      "adv": 12.0,
+      "critica": "Gatilho (b) não tem série comparável (não encontrado), então na prática só sobra o caminho (a)+(c); o (a) exige corte por demanda fraca E plano seguinte sem alta, muito restrito, e pela defasagem do Historiador o corte vem 1-2 anos após o pico das ações; (c) exige Nasdaq >20% abaixo por 2 meses cheios, o que ocorreu em poucos episódios desde 1990 (2000-02, 2008-09, 2022), ainda a confirmar pelo Historiador",
+      "conf": null,
+      "calc": {
+        "publicado": 25.0,
+        "centro": 25.0,
+        "min": 25.0,
+        "max": 25.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [
+        {
+          "alvo_id": "P-0007",
+          "campo": "criação",
+          "antes": null,
+          "depois": "criado",
+          "motivo": "migração: data disponível no registro",
+          "autor": "Pesquisador preditivo",
+          "quando": "2026-10-31 13:53:30"
+        }
+      ],
+      "apoios": "S-0041,S-0048,S-0051,C-36,C-37"
+    },
+    {
+      "id": "P-0012",
+      "afirmacao": "Pelo menos três pessoas jurídicas distintas terão sua primeira habilitação ao Redata publicada entre 01/11/2026 e 31/12/2027.",
+      "tema": "tecnologia",
+      "escala": "brasil",
+      "prazo": "2027-12-31",
+      "criterio": "[Diário Oficial da União](https://www.in.gov.br/consulta), atos da Receita Federal: contar ≥3 raízes de CNPJ distintas com concessão efetiva de habilitação ao Redata, excluindo pedidos, coabilitações, retificações e duplicatas. Base jurídica: [Lei 15.504, de 15/09/2026](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15504.htm). Cruzar com comunicado ou relatório de cada beneficiária; isso confirma a contraparte, sem comprovar obra concluída.",
+      "status": "publicada",
+      "prob": 75.0,
+      "adv": 70.0,
+      "critica": "Se empresas já foram habilitadas na época da MP, o \"primeira habilitação na janela\" reduz o grupo; ato pode sair só como ADE da Receita e não ser achado no DOU",
+      "conf": null,
+      "calc": {
+        "publicado": 75.0,
+        "centro": 75.0,
+        "min": 75.0,
+        "max": 75.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [
+        {
+          "alvo_id": "P-0012",
+          "campo": "criação",
+          "antes": null,
+          "depois": "criado",
+          "motivo": "migração: data disponível no registro",
+          "autor": "Pesquisador preditivo",
+          "quando": "2026-10-31 21:33:20"
+        }
+      ],
+      "apoios": "S-0081,C-57,E-16"
+    },
+    {
+      "id": "P-0013",
+      "afirmacao": "Até o fim de 2027 haverá serviço comercial pago de mensagens por conexão direta satélite–celular comum, sem terminal satelital externo, comprovadamente utilizável em pelo menos um município do oeste do Paraná.",
+      "tema": "tecnologia",
+      "escala": "regional",
+      "prazo": "2027-12-31",
+      "criterio": "[Anatel, atos normativos](https://informacoes.anatel.gov.br/legislacao/) e autorização da prestadora, oferta tarifária pública e teste independente datado: ≥1 mensagem enviada e recebida por D2D, sem Wi-Fi nem rede celular terrestre, em área rural de município da mesorregião Oeste Paranaense do IBGE. Exigir oferta contratável pelo público e evidência local com aparelho compatível; não basta mapa de cobertura. Pista atual: [Teletime, 01/10/2026](https://teletime.com.br/01/10/2026/anatel-nao-planeja-leilao-d2d/). Segunda comprovação operacional local: não encontrada.",
+      "status": "publicada",
+      "prob": 55.00000000000001,
+      "adv": 45.0,
+      "critica": "Serviço D2D lançado no Brasil cobre o país inteiro, então o oeste vem junto; o gargalo é o critério exigir teste independente datado em área rural do oeste, que ninguém é obrigado a fazer",
+      "conf": null,
+      "calc": {
+        "publicado": 55.00000000000001,
+        "centro": 55.00000000000001,
+        "min": 55.00000000000001,
+        "max": 55.00000000000001,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [
+        {
+          "alvo_id": "P-0013",
+          "campo": "criação",
+          "antes": null,
+          "depois": "criado",
+          "motivo": "migração: data disponível no registro",
+          "autor": "Pesquisador preditivo",
+          "quando": "2026-10-31 21:33:20"
+        }
+      ],
+      "apoios": "S-0082,C-58,E-21"
+    }
+  ],
+  "hipoteses": [],
+  "ciclos": [],
+  "gerado": "2026-11-01T17:42:04.392952-03:00"
+}
