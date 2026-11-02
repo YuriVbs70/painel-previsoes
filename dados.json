@@ -59,6 +59,30 @@
       "apoios": "S-0012"
     },
     {
+      "id": "P-0075",
+      "afirmacao": "xAI anuncia devolução ou crédito da cota consumida no incidente de 01/11 até 15/11/2026",
+      "tema": "IA",
+      "escala": "global",
+      "prazo": "2026-11-15",
+      "criterio": "painel de uso, página de status ou post oficial: >= 1 anúncio de reset ou crédito; medidor voltando sem anúncio não conta",
+      "status": "publicada",
+      "prob": 25.0,
+      "adv": 25.0,
+      "critica": "Se foi aperto de propósito, nada a devolver; se falha do painel, medidor volta sem anúncio; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-grok-bot-custo.md",
+      "conf": null,
+      "calc": {
+        "publicado": 25.0,
+        "centro": 25.0,
+        "min": 25.0,
+        "max": 25.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0208,S-0210"
+    },
+    {
       "id": "P-0009",
       "afirmacao": "A NVIDIA publicará em 17/11/2026 resultados do 3º trimestre fiscal de 2027 com receita consolidada pelo menos 10% superior à do trimestre fiscal imediatamente anterior.",
       "tema": "tecnologia",
@@ -241,6 +265,30 @@
       "links": [],
       "historico": [],
       "apoios": "S-0068,S-0182,S-0046,S-0050"
+    },
+    {
+      "id": "P-0073",
+      "afirmacao": "xAI anuncia nova mudança de cota, plano ou preço do Grok Bot, ou publica os números da cota, entre 02/11 e 30/11/2026",
+      "tema": "IA",
+      "escala": "global",
+      "prazo": "2026-11-30",
+      "criterio": "página de planos, notas de versão ou post oficial xAI/Musk datado de 02/11 em diante: >= 1 mudança nova ou número de cota publicado; o post de 01/11 e aperto silencioso não contam",
+      "status": "publicada",
+      "prob": 50.0,
+      "adv": 50.0,
+      "critica": "Aguenta se contar só de 02/11 e exigir mudança nova ou números; o aperto provavelmente já ocorreu em 01/11; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-grok-bot-custo.md",
+      "conf": null,
+      "calc": {
+        "publicado": 50.0,
+        "centro": 50.0,
+        "min": 50.0,
+        "max": 50.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0158,S-0208,S-0210,E-37"
     },
     {
       "id": "P-0003",
@@ -1081,6 +1129,54 @@
       "links": [],
       "historico": [],
       "apoios": "S-0197,S-0198,S-0199,E-35"
+    },
+    {
+      "id": "P-0074",
+      "afirmacao": "Grok Bot passa a usar oficialmente modelo mais barato ou rápido pra pedido simples até 31/12/2026",
+      "tema": "IA",
+      "escala": "global",
+      "prazo": "2026-12-31",
+      "criterio": "notas de versão xAI: >= 1 entrada citando pedido simples indo pra modelo rápido",
+      "status": "publicada",
+      "prob": 40.0,
+      "adv": 40.0,
+      "critica": "Depende do Grok 4.8 rápido (P-0054 65%) e da nota citar a troca; promessa só em post do Musk; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-grok-bot-custo.md",
+      "conf": null,
+      "calc": {
+        "publicado": 40.0,
+        "centro": 40.0,
+        "min": 40.0,
+        "max": 40.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0158,E-37"
+    },
+    {
+      "id": "P-0076",
+      "afirmacao": "xAI lança opção oficial de rodar o Grok Bot no servidor ou PC do usuário até 31/12/2026",
+      "tema": "IA",
+      "escala": "global",
+      "prazo": "2026-12-31",
+      "criterio": "anúncio oficial xAI: >= 1 opção self-hosted",
+      "status": "publicada",
+      "prob": 5.0,
+      "adv": 5.0,
+      "critica": "Aguenta; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-grok-bot-custo.md",
+      "conf": null,
+      "calc": {
+        "publicado": 5.0,
+        "centro": 5.0,
+        "min": 5.0,
+        "max": 5.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0214,S-0201"
     },
     {
       "id": "P-0050",
@@ -1970,5 +2066,5 @@
     }
   ],
   "ciclos": [],
-  "gerado": "2026-11-02T01:41:47.611130-03:00"
+  "gerado": "2026-11-02T01:51:26.091415-03:00"
 }
