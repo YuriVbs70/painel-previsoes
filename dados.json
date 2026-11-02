@@ -171,6 +171,30 @@
       "apoios": "S-0090,S-0091,C-46,E-22"
     },
     {
+      "id": "P-0053",
+      "afirmacao": "A xAI lança o Grok 4.8 até 30/11/2026",
+      "tema": "IA",
+      "escala": "global",
+      "prazo": "2026-11-30",
+      "criterio": "xAI release notes (docs.x.ai/developers/release-notes): >= 1 entrada do modelo com nome próprio, disponível na API pública ou no app Grok; versão exclusiva do Grok Build ou só do Bot não conta",
+      "status": "publicada",
+      "prob": 45.0,
+      "adv": 45.0,
+      "critica": "Ritmo de 5-6 semanas vale só pros 3 últimos modelos; 4.1→4.20 ~4 meses e 4.20→4.5 120 dias; 42 dias desde o 4.7 com atraso admitido; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-grok-48-49-5.md",
+      "conf": null,
+      "calc": {
+        "publicado": 45.0,
+        "centro": 45.0,
+        "min": 45.0,
+        "max": 45.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": ""
+    },
+    {
       "id": "P-0003",
       "afirmacao": "Última cotação de balcão da soja da Copagril em Marechal Cândido Rondon com data em novembro/2026 igual ou acima de R$136/sc",
       "tema": "economia",
@@ -649,6 +673,78 @@
         }
       ],
       "apoios": "S-0063,S-0064,S-0066,S-0113,C-43,C-44,C-56,E-18"
+    },
+    {
+      "id": "P-0052",
+      "afirmacao": "A xAI lança um modelo chamado Grok 5 até 31/12/2026",
+      "tema": "IA",
+      "escala": "global",
+      "prazo": "2026-12-31",
+      "criterio": "Conta só quando o modelo aparece nas notas oficiais da xAI (docs.x.ai/developers/release-notes) com nome próprio, disponível na API pública ou no app Grok; versão exclusiva do Grok Build ou só do Bot não conta; um 4.9 renomeado conta se sair com o nome Grok 5",
+      "status": "publicada",
+      "prob": 10.0,
+      "adv": 10.0,
+      "critica": "Aguenta o ataque; critério precisa dizer se conta 4.9 renomeado pra 5 (incluído); ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-grok-48-49-5.md",
+      "conf": null,
+      "calc": {
+        "publicado": 10.0,
+        "centro": 10.0,
+        "min": 10.0,
+        "max": 10.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": ""
+    },
+    {
+      "id": "P-0054",
+      "afirmacao": "A xAI lança o Grok 4.8 até 31/12/2026",
+      "tema": "IA",
+      "escala": "global",
+      "prazo": "2026-12-31",
+      "criterio": "xAI release notes (docs.x.ai/developers/release-notes): >= 1 entrada do modelo com nome próprio, disponível na API pública ou no app Grok; versão exclusiva do Grok Build ou só do Bot não conta",
+      "status": "publicada",
+      "prob": 65.0,
+      "adv": 65.0,
+      "critica": "31/12 cai 101 dias após o 4.7, menos que os intervalos de ~4 meses do 1º semestre; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-grok-48-49-5.md",
+      "conf": null,
+      "calc": {
+        "publicado": 65.0,
+        "centro": 65.0,
+        "min": 65.0,
+        "max": 65.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": ""
+    },
+    {
+      "id": "P-0055",
+      "afirmacao": "A xAI lança o Grok 4.9 até 31/12/2026",
+      "tema": "IA",
+      "escala": "global",
+      "prazo": "2026-12-31",
+      "criterio": "xAI release notes (docs.x.ai/developers/release-notes): >= 1 entrada do modelo com nome próprio, disponível na API pública ou no app Grok; versão exclusiva do Grok Build ou só do Bot não conta",
+      "status": "publicada",
+      "prob": 10.0,
+      "adv": 10.0,
+      "critica": "Aguenta o ataque; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-grok-48-49-5.md",
+      "conf": null,
+      "calc": {
+        "publicado": 10.0,
+        "centro": 10.0,
+        "min": 10.0,
+        "max": 10.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": ""
     },
     {
       "id": "P-0050",
@@ -1457,5 +1553,5 @@
     }
   ],
   "ciclos": [],
-  "gerado": "2026-11-02T01:08:21.458097-03:00"
+  "gerado": "2026-11-02T01:08:51.875731-03:00"
 }
