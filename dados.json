@@ -1059,6 +1059,30 @@
       "apoios": "S-0191"
     },
     {
+      "id": "P-0069",
+      "afirmacao": "xAI publica pesos abertos de algum Grok 3 ou mais novo até 31/12/2026",
+      "tema": "IA",
+      "escala": "global",
+      "prazo": "2026-12-31",
+      "criterio": "Hugging Face ou GitHub xai-org: >= 1 repositório com pesos de Grok 3 ou mais novo",
+      "status": "publicada",
+      "prob": 10.0,
+      "adv": 10.0,
+      "critica": "Aguenta; conferir no repositório oficial que o Grok 3 nunca saiu (S-0198 fonte única); ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-grok-local.md",
+      "conf": null,
+      "calc": {
+        "publicado": 10.0,
+        "centro": 10.0,
+        "min": 10.0,
+        "max": 10.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0197,S-0198,S-0199,E-35"
+    },
+    {
       "id": "P-0050",
       "afirmacao": "No segundo trimestre fiscal de 2027 da Oracle, o desembolso de capital será maior que o caixa líquido gerado pelas operações.",
       "tema": "economia",
@@ -1269,6 +1293,30 @@
       "links": [],
       "historico": [],
       "apoios": "S-0133,S-0134,S-0135,S-0136,S-0139,S-0140,E-25,E-26,C-60,C-61,C-62,C-63"
+    },
+    {
+      "id": "P-0070",
+      "afirmacao": "xAI publica pesos abertos de algum Grok 3 ou mais novo até 30/06/2027",
+      "tema": "IA",
+      "escala": "global",
+      "prazo": "2027-06-30",
+      "criterio": "Hugging Face ou GitHub xai-org: >= 1 repositório com pesos de Grok 3 ou mais novo",
+      "status": "publicada",
+      "prob": 30.0,
+      "adv": 30.0,
+      "critica": "2 aberturas em ~31 meses dão ~40% em 8 meses; xAI abre modelo aposentado e o Grok 3 saiu da API em maio; uma promessa furada não deve ancorar; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-grok-local.md",
+      "conf": null,
+      "calc": {
+        "publicado": 30.0,
+        "centro": 30.0,
+        "min": 30.0,
+        "max": 30.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0196,S-0197,S-0198,E-35"
     },
     {
       "id": "P-0043",
@@ -1851,9 +1899,66 @@
       "links": [],
       "historico": [],
       "apoios": "S-0142,S-0150,S-0151,S-0152,S-0153,E-27,E-29,E-30,C-64,C-65,C-69,C-72"
+    },
+    {
+      "id": "P-0071",
+      "afirmacao": "xAI lança modelo Grok oficial que roda sem nuvem em celular ou PC comum até 31/12/2027",
+      "tema": "IA",
+      "escala": "global",
+      "prazo": "2027-12-31",
+      "criterio": "notas de versão ou anúncio da xAI: >= 1 modelo Grok oficial rodando no aparelho; Grok Build com modelo de outra empresa não conta",
+      "status": "publicada",
+      "prob": 15.0,
+      "adv": 15.0,
+      "critica": "Aguenta, com critério fechado: modelo oficial xAI sem nuvem; Grok Build com modelo de terceiro não conta; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-grok-local.md",
+      "conf": null,
+      "calc": {
+        "publicado": 15.0,
+        "centro": 15.0,
+        "min": 15.0,
+        "max": 15.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0199,S-0202,S-0203,S-0204,S-0206,E-36"
+    },
+    {
+      "id": "P-0072",
+      "afirmacao": "App Grok ou Grok Bot ganha modo offline (responde sem internet) até 31/12/2027",
+      "tema": "IA",
+      "escala": "global",
+      "prazo": "2027-12-31",
+      "criterio": "anúncio ou ajuda oficial da xAI: >= 1 menção a modo offline",
+      "status": "publicada",
+      "prob": 5.0,
+      "adv": 5.0,
+      "critica": "Aguenta; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-grok-local.md",
+      "conf": null,
+      "calc": {
+        "publicado": 5.0,
+        "centro": 5.0,
+        "min": 5.0,
+        "max": 5.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0201,S-0199"
     }
   ],
   "hipoteses": [
+    {
+      "id": "H-0002",
+      "texto": "Com o Musk dizendo que o custo do Grok Bot está insustentável e usuários reclamando de cota, a xAI muda algo no Grok Bot nos próximos dias pra gastar menos tokens e segurar quem quer sair (modelo mais barato ou rápido, parte local, ou agente no estilo Hermes)",
+      "proposta_por": "yuri",
+      "criado_em": "2026-11-02 01:39:56",
+      "status": "recebida",
+      "previsao_id": null,
+      "melhor_contra": null
+    },
     {
       "id": "H-0001",
       "texto": "Os cortes de uso de tokens (xAI), a fusão de produtos da OpenAI (ChatGPT + Work + Codex) e os contratos de aluguel de GPU bem mais baratos indicam que o custo de rodar IA está apertando e que sobra capacidade de computação, um primeiro sinal de esfriamento do investimento em IA",
@@ -1865,5 +1970,5 @@
     }
   ],
   "ciclos": [],
-  "gerado": "2026-11-02T01:36:15.325859-03:00"
+  "gerado": "2026-11-02T01:40:09.754704-03:00"
 }
