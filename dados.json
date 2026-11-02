@@ -1,6 +1,30 @@
 {
   "previsoes": [
     {
+      "id": "P-0062",
+      "afirmacao": "Moonshot publica os pesos do Kimi K3.1 Pro até 04/11/2026",
+      "tema": "IA",
+      "escala": "global",
+      "prazo": "2026-11-04",
+      "criterio": "Hugging Face ou GitHub oficial da Moonshot: >= 1 repositório com os pesos",
+      "status": "publicada",
+      "prob": 50.0,
+      "adv": 50.0,
+      "critica": "Promessa só em agregadores, janela de 2 dias; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-ia-novembro.md",
+      "conf": null,
+      "calc": {
+        "publicado": 50.0,
+        "centro": 50.0,
+        "min": 50.0,
+        "max": 50.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0170,C-85"
+    },
+    {
       "id": "P-0001",
       "afirmacao": "Copom mantém a meta Selic em 13,75% na reunião de 3-4/11/2026",
       "tema": "juros",
@@ -179,8 +203,8 @@
       "criterio": "xAI release notes (docs.x.ai/developers/release-notes): >= 1 entrada do modelo com nome próprio, disponível na API pública ou no app Grok; versão exclusiva do Grok Build ou só do Bot não conta",
       "status": "publicada",
       "prob": 45.0,
-      "adv": 65.0,
-      "critica": "31/12 = 101 dias após 4.7, abaixo dos gaps de ~4 meses; R-0034 dá ~60%",
+      "adv": 45.0,
+      "critica": "Ritmo de 5-6 semanas vale só pros 3 últimos modelos; 4.1→4.20 ~4 meses e 4.20→4.5 120 dias; 42 dias desde o 4.7 com atraso admitido; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-grok-48-49-5.md",
       "conf": null,
       "calc": {
         "publicado": 45.0,
@@ -193,6 +217,30 @@
       "links": [],
       "historico": [],
       "apoios": ""
+    },
+    {
+      "id": "P-0056",
+      "afirmacao": "Ações da Anthropic (ANT) estreiam na Nasdaq até 30/11/2026",
+      "tema": "IA",
+      "escala": "global",
+      "prazo": "2026-11-30",
+      "criterio": "Nasdaq/SEC: >= 1 dia de negociação de ANT até 30/11/2026",
+      "status": "publicada",
+      "prob": 55.00000000000001,
+      "adv": 50.0,
+      "critica": "Aguenta; risco de adiamento pelo tombo de 30/10; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-ia-novembro.md",
+      "conf": null,
+      "calc": {
+        "publicado": 55.00000000000001,
+        "centro": 55.00000000000001,
+        "min": 55.00000000000001,
+        "max": 55.00000000000001,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0068,S-0182,S-0046,S-0050"
     },
     {
       "id": "P-0003",
@@ -683,8 +731,8 @@
       "criterio": "Conta só quando o modelo aparece nas notas oficiais da xAI (docs.x.ai/developers/release-notes) com nome próprio, disponível na API pública ou no app Grok; versão exclusiva do Grok Build ou só do Bot não conta; um 4.9 renomeado conta se sair com o nome Grok 5",
       "status": "publicada",
       "prob": 10.0,
-      "adv": 45.0,
-      "critica": "Ritmo 5-6 semanas só vale pros 3 últimos; gaps 4.1→4.20 ~4 meses e 4.20→4.5 120 dias; atraso admitido pelo Musk; R-0034 dá ~40%",
+      "adv": 10.0,
+      "critica": "Aguenta o ataque; critério precisa dizer se conta 4.9 renomeado pra 5 (incluído); ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-grok-48-49-5.md",
       "conf": null,
       "calc": {
         "publicado": 10.0,
@@ -707,8 +755,8 @@
       "criterio": "xAI release notes (docs.x.ai/developers/release-notes): >= 1 entrada do modelo com nome próprio, disponível na API pública ou no app Grok; versão exclusiva do Grok Build ou só do Bot não conta",
       "status": "publicada",
       "prob": 65.0,
-      "adv": 10.0,
-      "critica": "Aguenta; exige 4.8 cedo + novo ciclo antes do fim de ano",
+      "adv": 65.0,
+      "critica": "31/12 cai 101 dias após o 4.7, menos que os intervalos de ~4 meses do 1º semestre; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-grok-48-49-5.md",
       "conf": null,
       "calc": {
         "publicado": 65.0,
@@ -732,7 +780,7 @@
       "status": "publicada",
       "prob": 10.0,
       "adv": 10.0,
-      "critica": "Aguenta; 4 adiamentos justificam descontar Polymarket 19%",
+      "critica": "Aguenta o ataque; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-grok-48-49-5.md",
       "conf": null,
       "calc": {
         "publicado": 10.0,
@@ -745,6 +793,126 @@
       "links": [],
       "historico": [],
       "apoios": ""
+    },
+    {
+      "id": "P-0057",
+      "afirmacao": "Ações da Anthropic (ANT) estreiam na Nasdaq até 31/12/2026",
+      "tema": "IA",
+      "escala": "global",
+      "prazo": "2026-12-31",
+      "criterio": "Nasdaq/SEC: >= 1 dia de negociação de ANT até 31/12/2026",
+      "status": "publicada",
+      "prob": 60.0,
+      "adv": 60.0,
+      "critica": "Se adiar, dezembro fecha na metade e IPO vai pra 2027; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-ia-novembro.md",
+      "conf": null,
+      "calc": {
+        "publicado": 60.0,
+        "centro": 60.0,
+        "min": 60.0,
+        "max": 60.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0068,S-0182,S-0050"
+    },
+    {
+      "id": "P-0058",
+      "afirmacao": "Câmara aprova em plenário o PL 2338/2023 (marco legal da IA) até 31/12/2026",
+      "tema": "politica",
+      "escala": "brasil",
+      "prazo": "2026-12-31",
+      "criterio": "Portal da Câmara: >= 1 votação de plenário aprovando o PL 2338/2023",
+      "status": "publicada",
+      "prob": 10.0,
+      "adv": 10.0,
+      "critica": "Sem parecer do relator, ~6 semanas, vontade do governo só via O Globo; PL das fake news 2023 nunca votado; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-ia-novembro.md",
+      "conf": null,
+      "calc": {
+        "publicado": 10.0,
+        "centro": 10.0,
+        "min": 10.0,
+        "max": 10.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0072,S-0073,S-0179"
+    },
+    {
+      "id": "P-0059",
+      "afirmacao": "Câmara aprova em plenário o PL de concorrência das big techs (relator Aliel Machado) até 31/12/2026",
+      "tema": "politica",
+      "escala": "brasil",
+      "prazo": "2026-12-31",
+      "criterio": "Portal da Câmara: >= 1 votação de plenário aprovando o PL",
+      "status": "publicada",
+      "prob": 35.0,
+      "adv": 35.0,
+      "critica": "Aguenta; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-ia-novembro.md",
+      "conf": null,
+      "calc": {
+        "publicado": 35.0,
+        "centro": 35.0,
+        "min": 35.0,
+        "max": 35.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0179,E-32"
+    },
+    {
+      "id": "P-0060",
+      "afirmacao": "Google libera anúncios no Modo IA da Busca no Brasil até 31/12/2026",
+      "tema": "IA",
+      "escala": "brasil",
+      "prazo": "2026-12-31",
+      "criterio": "Blog ou Ajuda do Google Ads: >= 1 anúncio oficial citando o Brasil",
+      "status": "publicada",
+      "prob": 60.0,
+      "adv": 60.0,
+      "critica": "Aguenta até precedente; lançamento sem anúncio citando Brasil não conta; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-ia-novembro.md",
+      "conf": null,
+      "calc": {
+        "publicado": 60.0,
+        "centro": 60.0,
+        "min": 60.0,
+        "max": 60.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0007,E-10"
+    },
+    {
+      "id": "P-0061",
+      "afirmacao": "Apple Intelligence com Qwen sai ao público na China até 31/12/2026",
+      "tema": "IA",
+      "escala": "global",
+      "prazo": "2026-12-31",
+      "criterio": "Notas da Apple: >= 1 versão do iOS liberada ao público com Apple Intelligence na China",
+      "status": "publicada",
+      "prob": 35.0,
+      "adv": 35.0,
+      "critica": "Fonte agregadora, não Apple; iOS .3 saiu no fim de janeiro nos últimos 3 anos; aprovação chinesa pendente desde 2025; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-ia-novembro.md",
+      "conf": null,
+      "calc": {
+        "publicado": 35.0,
+        "centro": 35.0,
+        "min": 35.0,
+        "max": 35.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0165"
     },
     {
       "id": "P-0050",
@@ -1553,5 +1721,5 @@
     }
   ],
   "ciclos": [],
-  "gerado": "2026-11-02T01:14:13.446080-03:00"
+  "gerado": "2026-11-02T01:14:40.790751-03:00"
 }
