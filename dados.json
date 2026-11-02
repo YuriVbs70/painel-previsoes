@@ -771,9 +771,33 @@
       "links": [],
       "historico": [],
       "apoios": "S-0121,S-0122,S-0133,S-0134,S-0136,S-0139,S-0140,E-25,E-26,C-59,C-61,C-62"
+    },
+    {
+      "id": "P-0024",
+      "afirmacao": "Em 2027, o custo publicado para obter pelo menos 75% no GPQA Diamond cairá a no máximo US$ 0,000096 por questão, um terço da menor observação elegível encontrada nesta rodada.",
+      "tema": "IA",
+      "escala": "global",
+      "prazo": "2027-12-31",
+      "criterio": "[dados do estudo de custos da Epoch/Roodman](https://github.com/droodman/inference-cost/blob/main/data/cost_truncated_curves.csv), arquivo `data/cost_truncated_curves.csv`. Usar a última versão até o prazo; filtrar `benchmark=gpqa`, `budget_axis=output`, `n_samples=198`, `acc≥0.75`, custo positivo e `price_date` entre **2027-01-01 e 2027-09-30**. Decide **mínimo de `cost_per_task_usd` ≤ 0.000096**. Manter a suíte Diamond de 198 questões e o método de custo/truncamento do estudo, incluindo tokens de raciocínio. Baseline consultada em 2026-10-31: **US$ 0,000288**, `gemma-4-31b-it`, esforço `minimal`, orçamento 2.048, `acc=0.7576`, preço datado de 2026-08-03. É mínimo dos registros elegíveis, não cotação universal em 31/10. Conferir os preços do provedor indicado em `price_source` e a configuração do teste; esse cruzamento não é segunda avaliação independente de desempenho.",
+      "status": "publicada",
+      "prob": 70.0,
+      "adv": 50.0,
+      "critica": "[CSV](https://raw.githubusercontent.com/droodman/inference-cost/main/data/cost_truncated_curves.csv), 01/11/26: mínimo confirmado US$0,000288, acc=0,7576 em 198 questões, preço de 03/08/26. Só 0,76 p.p. acima do corte; selecionar o mínimo amplifica ruído.",
+      "conf": null,
+      "calc": {
+        "publicado": 70.0,
+        "centro": 70.0,
+        "min": 70.0,
+        "max": 70.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0128,S-0129,S-0130,S-0131,S-0132,E-25,E-26,C-59,C-60"
     }
   ],
   "hipoteses": [],
   "ciclos": [],
-  "gerado": "2026-11-01T23:55:05.569079-03:00"
+  "gerado": "2026-11-01T23:55:29.798131-03:00"
 }
