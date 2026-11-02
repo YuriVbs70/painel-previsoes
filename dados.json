@@ -179,8 +179,8 @@
       "criterio": "xAI release notes (docs.x.ai/developers/release-notes): >= 1 entrada do modelo com nome próprio, disponível na API pública ou no app Grok; versão exclusiva do Grok Build ou só do Bot não conta",
       "status": "publicada",
       "prob": 45.0,
-      "adv": 45.0,
-      "critica": "Ritmo de 5-6 semanas vale só pros 3 últimos modelos; 4.1→4.20 ~4 meses e 4.20→4.5 120 dias; 42 dias desde o 4.7 com atraso admitido; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-grok-48-49-5.md",
+      "adv": 65.0,
+      "critica": "31/12 = 101 dias após 4.7, abaixo dos gaps de ~4 meses; R-0034 dá ~60%",
       "conf": null,
       "calc": {
         "publicado": 45.0,
@@ -683,8 +683,8 @@
       "criterio": "Conta só quando o modelo aparece nas notas oficiais da xAI (docs.x.ai/developers/release-notes) com nome próprio, disponível na API pública ou no app Grok; versão exclusiva do Grok Build ou só do Bot não conta; um 4.9 renomeado conta se sair com o nome Grok 5",
       "status": "publicada",
       "prob": 10.0,
-      "adv": 10.0,
-      "critica": "Aguenta o ataque; critério precisa dizer se conta 4.9 renomeado pra 5 (incluído); ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-grok-48-49-5.md",
+      "adv": 45.0,
+      "critica": "Ritmo 5-6 semanas só vale pros 3 últimos; gaps 4.1→4.20 ~4 meses e 4.20→4.5 120 dias; atraso admitido pelo Musk; R-0034 dá ~40%",
       "conf": null,
       "calc": {
         "publicado": 10.0,
@@ -707,8 +707,8 @@
       "criterio": "xAI release notes (docs.x.ai/developers/release-notes): >= 1 entrada do modelo com nome próprio, disponível na API pública ou no app Grok; versão exclusiva do Grok Build ou só do Bot não conta",
       "status": "publicada",
       "prob": 65.0,
-      "adv": 65.0,
-      "critica": "31/12 cai 101 dias após o 4.7, menos que os intervalos de ~4 meses do 1º semestre; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-grok-48-49-5.md",
+      "adv": 10.0,
+      "critica": "Aguenta; exige 4.8 cedo + novo ciclo antes do fim de ano",
       "conf": null,
       "calc": {
         "publicado": 65.0,
@@ -732,7 +732,7 @@
       "status": "publicada",
       "prob": 10.0,
       "adv": 10.0,
-      "critica": "Aguenta o ataque; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-grok-48-49-5.md",
+      "critica": "Aguenta; 4 adiamentos justificam descontar Polymarket 19%",
       "conf": null,
       "calc": {
         "publicado": 10.0,
@@ -1553,5 +1553,5 @@
     }
   ],
   "ciclos": [],
-  "gerado": "2026-11-02T01:08:51.875731-03:00"
+  "gerado": "2026-11-02T01:09:19.361793-03:00"
 }
