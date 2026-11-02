@@ -747,9 +747,33 @@
         }
       ],
       "apoios": "S-0082,C-58,E-21"
+    },
+    {
+      "id": "P-0023",
+      "afirmacao": "Até setembro de 2027, o maior compute de treino catalogado pela Epoch para um modelo publicado depois de 31/10/2026 atingirá pelo menos 2,82 × 10²⁷ FLOP, três vezes a fronteira observada em 31/10/2026.",
+      "tema": "IA",
+      "escala": "global",
+      "prazo": "2027-12-31",
+      "criterio": "[Epoch, Frontier AI Models, CSV](https://epoch.ai/data/frontier_ai_models.csv), campos `Publication date` e `Training compute (FLOP)`. Na última versão disponível até 2027-12-31, selecionar modelos publicados de 2026-11-01 a 2027-09-30, de qualquer domínio, e tomar o maior valor numérico positivo. Decide **máximo ≥ 2,82e27**. Não somar modelos, chips ou centros de dados. Base congelada nesta rodada: **9,4e26 FLOP**, GPT-6 Astra, publicação 2026-09-03, consultada diretamente em 2026-10-31. São estimativas de treino da Epoch, não FLOP auditados. Publicação técnica do laboratório pode corroborar equipamento/duração; segunda medição independente do total: **não encontrada**. [Siren](https://siren.watch/compute.html) reutiliza a Epoch.",
+      "status": "publicada",
+      "prob": 75.0,
+      "adv": 65.0,
+      "critica": "[Epoch](https://epoch.ai/data/frontier_ai_models.csv), consulta 01/11/26: a própria nota de Astra estima intervalo de ~5e26 a 2e27 FLOP para o ponto 9,4e26. O limiar depende de estimativa incerta, não de treino auditado.",
+      "conf": null,
+      "calc": {
+        "publicado": 75.0,
+        "centro": 75.0,
+        "min": 75.0,
+        "max": 75.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0121,S-0122,S-0133,S-0134,S-0136,S-0139,S-0140,E-25,E-26,C-59,C-61,C-62"
     }
   ],
   "hipoteses": [],
   "ciclos": [],
-  "gerado": "2026-11-01T17:42:04.392952-03:00"
+  "gerado": "2026-11-01T23:55:05.569079-03:00"
 }
