@@ -647,6 +647,30 @@
       "apoios": "S-0072,S-0073,C-57"
     },
     {
+      "id": "P-0025",
+      "afirmacao": "O capex em caixa agregado de Microsoft, Alphabet, Amazon e Meta no trimestre janeiro–março de 2027 será pelo menos 20% maior que em janeiro–março de 2026.",
+      "tema": "tecnologia",
+      "escala": "global",
+      "prazo": "2027-06-30",
+      "criterio": "demonstrações de fluxos de caixa dos resultados oficiais de [Microsoft](https://www.microsoft.com/en-us/Investor/earnings), [Alphabet](https://abc.xyz/investor/), [Amazon](https://ir.aboutamazon.com/quarterly-results/default.aspx) e [Meta](https://investor.atmeta.com/financials/). Somar, em dólares nominais, as saídas em caixa para aquisição de imobilizado/PP&E: `Additions to property and equipment` ou linha equivalente. Excluir aquisições de empresas, títulos, entrada não monetária de ativos arrendados e pagamentos de principal de arrendamentos. Para MSFT, usar janeiro–março, **Q3 fiscal**, por diferença dos acumulados de nove e seis meses; para as outras, Q1 calendário. Usar a última demonstração/retificação publicada até 2027-06-30 para ambos os anos. Decide **soma2027/soma2026 − 1 ≥ 0,20**. Conferir no [SEC/EDGAR](https://www.sec.gov/edgar/search/); é registro da mesma conta, não medição independente.",
+      "status": "publicada",
+      "prob": 65.0,
+      "adv": 60.0,
+      "critica": "[IEA 2026](https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary), consultada 01/11: prevê falta de HBM até fim de 2027 e dependência de financiamento externo. Projetos anunciados não garantem desembolso no trimestre.",
+      "conf": null,
+      "calc": {
+        "publicado": 65.0,
+        "centro": 65.0,
+        "min": 65.0,
+        "max": 65.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0133,S-0134,S-0135,S-0136,S-0139,S-0140,E-25,E-26,C-60,C-61,C-62,C-63"
+    },
+    {
       "id": "P-0007",
       "afirmacao": "EUA atingem 2 dos 3 gatilhos da régua da bolha de IA (corte de capex por demanda fraca; receita de IA parada 2 tri; Nasdaq Composite >20% abaixo do pico por 2 meses) até 31/10/2027",
       "tema": "IA",
@@ -799,5 +823,5 @@
   ],
   "hipoteses": [],
   "ciclos": [],
-  "gerado": "2026-11-01T23:55:29.798131-03:00"
+  "gerado": "2026-11-01T23:55:54.051069-03:00"
 }
