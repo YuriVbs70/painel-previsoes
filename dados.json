@@ -819,9 +819,33 @@
       "links": [],
       "historico": [],
       "apoios": "S-0128,S-0129,S-0130,S-0131,S-0132,E-25,E-26,C-59,C-60"
+    },
+    {
+      "id": "P-0026",
+      "afirmacao": "A expansão da fronteira de compute entre 31/12/2026 e 30/09/2027 implicará tempo de dobra pelo menos 20% menor que o estimado sobre os máximos anuais de 2019–2025.",
+      "tema": "IA",
+      "escala": "global",
+      "prazo": "2027-12-31",
+      "criterio": "mesmo [CSV da Epoch](https://epoch.ai/data/frontier_ai_models.csv), na última versão disponível até 2027-12-31. Definir `F26=max(9.4e26, máximo de compute dos modelos com publicação até 2026-12-31)` e `F27=max(F26, máximo dos modelos publicados de 2027-01-01 a 2027-09-30)`. O piso de F26 preserva a fronteira já observada nesta rodada; valores novos de novembro–dezembro de 2026 poderão elevá-la. Os **273 dias** entre as datas dão `T=273×ln(2)/ln(F27/F26)`; sem crescimento, T é infinito. Baseline histórica **congelada**: regressão OLS de log natural do máximo anual em função do ano, 2019–2025, calculada em 2026-10-31, inclinação **1,361272823502451/ano**, dobra em **185,9818276898585 dias**. Decide **T ≤ 148,7854621518868 dias**; equivalente a **F27/F26 ≥ 3.567359686640432**. Usar a fórmula sem arredondamento. O valor final de F26 ainda não é conhecido em 31/10/2026, mas sua regra já está fixada; não recalibrar retrospectivamente a baseline histórica. Segunda estimativa independente de compute: não encontrada; o painel de tendências da Epoch é uma comparação de método, não outra medição.",
+      "status": "publicada",
+      "prob": 35.0,
+      "adv": 20.0,
+      "critica": "[Epoch](https://epoch.ai/data/frontier_ai_models.csv), 01/11/26: máximo atual 9,4e26 é estimado. Exigir F27/F26≥3,567 em 273 dias compara dois extremos com regressão de sete máximos anuais; novembro/dezembro ainda podem elevar F26.",
+      "conf": null,
+      "calc": {
+        "publicado": 35.0,
+        "centro": 35.0,
+        "min": 35.0,
+        "max": 35.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0121,S-0122,S-0124,S-0126,S-0137,S-0138,S-0140,E-25,E-26,C-59,C-60,C-61,C-62"
     }
   ],
   "hipoteses": [],
   "ciclos": [],
-  "gerado": "2026-11-01T23:55:54.051069-03:00"
+  "gerado": "2026-11-01T23:56:19.280304-03:00"
 }
