@@ -915,6 +915,150 @@
       "apoios": "S-0165"
     },
     {
+      "id": "P-0063",
+      "afirmacao": "OpenAI lança >= 1 modelo com nome novo na API até 31/12/2026",
+      "tema": "IA",
+      "escala": "global",
+      "prazo": "2026-12-31",
+      "criterio": "docs da OpenAI (models): >= 1 nome novo aberto a qualquer dev pagante; variante mini ou rápida conta, prévia por convite não",
+      "status": "publicada",
+      "prob": 75.0,
+      "adv": 80.0,
+      "critica": "Critério conta qualquer nome novo; OpenAI soltou Terra e Rosalind em 4 dias; freio pega mais o modelo grande; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-lancamentos-ia.md",
+      "conf": null,
+      "calc": {
+        "publicado": 75.0,
+        "centro": 75.0,
+        "min": 75.0,
+        "max": 75.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0184,S-0185,S-0186,E-34"
+    },
+    {
+      "id": "P-0064",
+      "afirmacao": "Gemini 4 Carbon aberto a qualquer desenvolvedor (API, mesmo em prévia) até 31/12/2026",
+      "tema": "IA",
+      "escala": "global",
+      "prazo": "2026-12-31",
+      "criterio": "blog ou docs do Google: >= 1 anúncio de acesso a qualquer desenvolvedor, sem lista restrita",
+      "status": "publicada",
+      "prob": 35.0,
+      "adv": 40.0,
+      "critica": "Começou fechado pra cibersegurança; modelo retido por risco demora mais que 'em breve' comum; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-lancamentos-ia.md",
+      "conf": null,
+      "calc": {
+        "publicado": 35.0,
+        "centro": 35.0,
+        "min": 35.0,
+        "max": 35.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0187,E-34"
+    },
+    {
+      "id": "P-0065",
+      "afirmacao": "Anthropic lança modelo chamado Mythos 5.5 ou Fable 5.5 até 31/12/2026",
+      "tema": "IA",
+      "escala": "global",
+      "prazo": "2026-12-31",
+      "criterio": "anthropic.com/news: >= 1 anúncio com um desses nomes exatos",
+      "status": "publicada",
+      "prob": 30.0,
+      "adv": 40.0,
+      "critica": "Aguenta; dois vazamentos de lugares diferentes, Fable com fonte única; outro nome não conta; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-lancamentos-ia.md",
+      "conf": null,
+      "calc": {
+        "publicado": 30.0,
+        "centro": 30.0,
+        "min": 30.0,
+        "max": 30.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0189,S-0190"
+    },
+    {
+      "id": "P-0066",
+      "afirmacao": "DeepSeek lança o V5 até 31/12/2026",
+      "tema": "IA",
+      "escala": "global",
+      "prazo": "2026-12-31",
+      "criterio": "site ou HF oficial da DeepSeek: >= 1 modelo chamado V5",
+      "status": "publicada",
+      "prob": 10.0,
+      "adv": 10.0,
+      "critica": "DeepSeek diz que o próximo é o V4.1 Pro; único prazo é palpite de banco; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-lancamentos-ia.md",
+      "conf": null,
+      "calc": {
+        "publicado": 10.0,
+        "centro": 10.0,
+        "min": 10.0,
+        "max": 10.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0193"
+    },
+    {
+      "id": "P-0067",
+      "afirmacao": "Muse Wonder disponível no app Muse até 31/12/2026",
+      "tema": "IA",
+      "escala": "global",
+      "prazo": "2026-12-31",
+      "criterio": "anúncio da Meta: >= 1 post confirmando uso no app pelo público (grátis ou assinante) em >= 1 país; lista de espera não conta",
+      "status": "publicada",
+      "prob": 60.0,
+      "adv": 60.0,
+      "critica": "Aguenta; anúncio oficial da Meta; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-lancamentos-ia.md",
+      "conf": null,
+      "calc": {
+        "publicado": 60.0,
+        "centro": 60.0,
+        "min": 60.0,
+        "max": 60.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0192"
+    },
+    {
+      "id": "P-0068",
+      "afirmacao": "Claude Duet disponível no Brasil até 31/12/2026",
+      "tema": "IA",
+      "escala": "brasil",
+      "prazo": "2026-12-31",
+      "criterio": "anúncio ou help center da Anthropic: >= 1 menção ao Brasil entre os países liberados",
+      "status": "publicada",
+      "prob": 10.0,
+      "adv": 10.0,
+      "critica": "Prévia com lista de espera só nos EUA há 11 dias; Brasil raramente na primeira leva; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-lancamentos-ia.md",
+      "conf": null,
+      "calc": {
+        "publicado": 10.0,
+        "centro": 10.0,
+        "min": 10.0,
+        "max": 10.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0191"
+    },
+    {
       "id": "P-0050",
       "afirmacao": "No segundo trimestre fiscal de 2027 da Oracle, o desembolso de capital será maior que o caixa líquido gerado pelas operações.",
       "tema": "economia",
@@ -1721,5 +1865,5 @@
     }
   ],
   "ciclos": [],
-  "gerado": "2026-11-02T01:19:02.788636-03:00"
+  "gerado": "2026-11-02T01:19:37.104903-03:00"
 }
