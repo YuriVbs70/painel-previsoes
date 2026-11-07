@@ -291,6 +291,30 @@
       "apoios": "S-0158,S-0208,S-0210,E-37"
     },
     {
+      "id": "P-0080",
+      "afirmacao": "Registro oficial de mudanças da API da DeepSeek ganha entrada nova entre 08/11 e 30/11/2026",
+      "tema": "IA",
+      "escala": "global",
+      "prazo": "2026-11-30",
+      "criterio": "api-docs.deepseek.com/zh-cn/updates.md: >= 1 entrada datada de 08/11 a 30/11/2026",
+      "status": "publicada",
+      "prob": 45.0,
+      "adv": null,
+      "critica": null,
+      "conf": null,
+      "calc": {
+        "publicado": 45.0,
+        "centro": 45.0,
+        "min": 45.0,
+        "max": 45.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0263,S-0193"
+    },
+    {
       "id": "P-0003",
       "afirmacao": "Última cotação de balcão da soja da Copagril em Marechal Cândido Rondon com data em novembro/2026 igual ou acima de R$136/sc",
       "tema": "economia",
@@ -1177,6 +1201,30 @@
       "links": [],
       "historico": [],
       "apoios": "S-0214,S-0201"
+    },
+    {
+      "id": "P-0079",
+      "afirmacao": "DeepSeek lança o V4.1 Pro até 31/12/2026",
+      "tema": "IA",
+      "escala": "global",
+      "prazo": "2026-12-31",
+      "criterio": "api-docs.deepseek.com/updates ou huggingface.co/deepseek-ai: >= 1 modelo com 'V4.1-Pro' no nome até 31/12/2026; V4.2 ou V5 não contam",
+      "status": "publicada",
+      "prob": 38.0,
+      "adv": null,
+      "critica": null,
+      "conf": null,
+      "calc": {
+        "publicado": 38.0,
+        "centro": 38.0,
+        "min": 38.0,
+        "max": 38.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0193,S-0263,S-0166"
     },
     {
       "id": "P-0050",
@@ -2114,5 +2162,5 @@
     }
   ],
   "ciclos": [],
-  "gerado": "2026-11-07T09:28:42.790217-03:00"
+  "gerado": "2026-11-07T09:29:10.065262-03:00"
 }
