@@ -1415,6 +1415,30 @@
       "apoios": "S-0196,S-0197,S-0198,E-35"
     },
     {
+      "id": "P-0077",
+      "afirmacao": "Até 30/06/2027 veículo grande ou documento judicial mostra, com fonte nomeada ou documento, laboratório grande de IA usando engenharia reversa/descompilação de software fechado de terceiros pra gerar dados de treino",
+      "tema": "IA",
+      "escala": "global",
+      "prazo": "2027-06-30",
+      "criterio": "Reuters, NYT, WSJ, Bloomberg, The Information, FT ou processo público: >= 1 reportagem ou documento até 30/06/2027; laboratórios: OpenAI, Anthropic, Google, xAI, Meta, DeepSeek. Raspagem de código aberto, rumor, post anônimo ou opinião não contam",
+      "status": "publicada",
+      "prob": 9.0,
+      "adv": null,
+      "critica": null,
+      "conf": null,
+      "calc": {
+        "publicado": 9.0,
+        "centro": 9.0,
+        "min": 9.0,
+        "max": 9.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0260,S-0261"
+    },
+    {
       "id": "P-0043",
       "afirmacao": "A fila municipal de pessoas aguardando atendimento inicial de fonoaudiologia no SUS de Marechal Cândido Rondon terá pelo menos 200 pacientes na posição de 2027-06-30, documentada até agosto.",
       "tema": "vida cotidiana",
@@ -2043,6 +2067,30 @@
       "links": [],
       "historico": [],
       "apoios": "S-0201,S-0199"
+    },
+    {
+      "id": "P-0078",
+      "afirmacao": "Até 31/12/2027 empresa de software processa laboratório de IA alegando descompilação/engenharia reversa do seu programa fechado pra treino",
+      "tema": "IA",
+      "escala": "global",
+      "prazo": "2027-12-31",
+      "criterio": "tribunais/PACER: >= 1 processo público com número até 31/12/2027; autor tem que ser empresa dona do software; processo sobre código aberto (tipo Doe v. GitHub) não conta",
+      "status": "publicada",
+      "prob": 6.0,
+      "adv": null,
+      "critica": null,
+      "conf": null,
+      "calc": {
+        "publicado": 6.0,
+        "centro": 6.0,
+        "min": 6.0,
+        "max": 6.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0260,S-0261"
     }
   ],
   "hipoteses": [
@@ -2066,5 +2114,5 @@
     }
   ],
   "ciclos": [],
-  "gerado": "2026-11-07T09:26:57.676480-03:00"
+  "gerado": "2026-11-07T09:27:28.799452-03:00"
 }
