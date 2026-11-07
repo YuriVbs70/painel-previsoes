@@ -1423,8 +1423,8 @@
       "criterio": "Reuters, NYT, WSJ, Bloomberg, The Information, FT ou processo público: >= 1 reportagem ou documento até 30/06/2027; laboratórios: OpenAI, Anthropic, Google, xAI, Meta, DeepSeek. Raspagem de código aberto, rumor, post anônimo ou opinião não contam",
       "status": "publicada",
       "prob": 9.0,
-      "adv": null,
-      "critica": null,
+      "adv": 9.0,
+      "critica": "Código aberto farto e barato; descompilar binário fechado tem risco jurídico (EULA, DMCA 1201); as 4 revelações de dados de treino conhecidas (YouTube, LibGen, livros Anthropic) foram de conteúdo e vieram por discovery 1-2 anos depois; base em rumor único (S-0260). Aguenta em 9% após corte de 20%",
       "conf": null,
       "calc": {
         "publicado": 9.0,
@@ -2077,8 +2077,8 @@
       "criterio": "tribunais/PACER: >= 1 processo público com número até 31/12/2027; autor tem que ser empresa dona do software; processo sobre código aberto (tipo Doe v. GitHub) não conta",
       "status": "publicada",
       "prob": 6.0,
-      "adv": null,
-      "critica": null,
+      "adv": 6.0,
+      "critica": "Processo exige a empresa saber antes (depende de algo tipo P-0077) e o normal é acordo/licença; nenhuma empresa de software processou laboratório por código até hoje (Historiador); Doe v. GitHub é de programadores e sobre código aberto. Aguenta em 6% após corte de 12%",
       "conf": null,
       "calc": {
         "publicado": 6.0,
@@ -2114,5 +2114,5 @@
     }
   ],
   "ciclos": [],
-  "gerado": "2026-11-07T09:27:28.799452-03:00"
+  "gerado": "2026-11-07T09:28:42.790217-03:00"
 }
