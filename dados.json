@@ -2139,6 +2139,54 @@
       "links": [],
       "historico": [],
       "apoios": "S-0260,S-0261"
+    },
+    {
+      "id": "P-0081",
+      "afirmacao": "Na Pew Global Attitudes 2027, pelo menos 53% dos brasileiros mais preocupados que empolgados com a IA no dia a dia (2025: 48%, 2026: 52%)",
+      "tema": "IA",
+      "escala": "brasil",
+      "prazo": "2027-12-31",
+      "criterio": "Pew, mesma pergunta: Brasil >= 53% = SIM, < 53% = NÃO; Brasil fora da pesquisa ou pergunta mudada = anulada",
+      "status": "publicada",
+      "prob": 55.00000000000001,
+      "adv": null,
+      "critica": null,
+      "conf": null,
+      "calc": {
+        "publicado": 55.00000000000001,
+        "centro": 55.00000000000001,
+        "min": 55.00000000000001,
+        "max": 55.00000000000001,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0268,S-0269,C-134"
+    },
+    {
+      "id": "P-0082",
+      "afirmacao": "Na Pew 2027, a mediana dos países presentes em 2026 e 2027 mais preocupados que empolgados com a IA sobe pelo menos 1 ponto em relação à mesma lista em 2026",
+      "tema": "IA",
+      "escala": "global",
+      "prazo": "2027-12-31",
+      "criterio": "Pew 2026 e 2027, só países comuns: mediana 2027 - mediana 2026 >= 1 ponto = SIM; sem a pergunta = anulada",
+      "status": "publicada",
+      "prob": 55.00000000000001,
+      "adv": null,
+      "critica": null,
+      "conf": null,
+      "calc": {
+        "publicado": 55.00000000000001,
+        "centro": 55.00000000000001,
+        "min": 55.00000000000001,
+        "max": 55.00000000000001,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0268,S-0269"
     }
   ],
   "hipoteses": [
@@ -2162,5 +2210,5 @@
     }
   ],
   "ciclos": [],
-  "gerado": "2026-11-10T12:13:06.059357-03:00"
+  "gerado": "2026-11-10T12:31:58.365639-03:00"
 }
