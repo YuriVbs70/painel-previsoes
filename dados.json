@@ -299,8 +299,8 @@
       "criterio": "api-docs.deepseek.com/zh-cn/updates.md: >= 1 entrada datada de 08/11 a 30/11/2026",
       "status": "publicada",
       "prob": 45.0,
-      "adv": null,
-      "critica": null,
+      "adv": 45.0,
+      "critica": "7 entradas no registro em 12 meses dão ~36% pra janela de 23 dias; ritmo desde 31/07 daria ~69%; seca de 145 dias entre dez/25 e abr/26. Correlacionada com P-0079 (não contar como evidência independente). Aguenta em 45%",
       "conf": null,
       "calc": {
         "publicado": 45.0,
@@ -1211,8 +1211,8 @@
       "criterio": "api-docs.deepseek.com/updates ou huggingface.co/deepseek-ai: >= 1 modelo com 'V4.1-Pro' no nome até 31/12/2026; V4.2 ou V5 não contam",
       "status": "publicada",
       "prob": 38.0,
-      "adv": null,
-      "critica": null,
+      "adv": 38.0,
+      "critica": "Registro oficial (api-docs.deepseek.com/zh-cn/updates.md) não cita V4.1 Pro; frase \"próximo é o V4.1 Pro\" só vem de terceiros (S-0193). Único precedente: V4 Pro saiu 13 dias após o Flash, mas com promessa explícita no registro, que agora não existe; V4.1 Flash já tem 58+ dias sem Pro; V4 Pro mantido na API após 14/09. Critério exige \"V4.1-Pro\" no nome (V4.2/V5 dá NÃO). Aguenta em 38%",
       "conf": null,
       "calc": {
         "publicado": 38.0,
@@ -2162,5 +2162,5 @@
     }
   ],
   "ciclos": [],
-  "gerado": "2026-11-08T07:08:02.257219-03:00"
+  "gerado": "2026-11-10T11:40:43.748564-03:00"
 }
