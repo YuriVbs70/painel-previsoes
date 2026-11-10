@@ -7,11 +7,26 @@
       "escala": "global",
       "prazo": "2026-11-04",
       "criterio": "Hugging Face ou GitHub oficial da Moonshot: >= 1 repositório com os pesos",
-      "status": "publicada",
+      "status": "conferida",
       "prob": 50.0,
       "adv": 50.0,
       "critica": "Promessa só em agregadores, janela de 2 dias; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-ia-novembro.md",
-      "conf": null,
+      "conf": {
+        "id": "CF-0002",
+        "previsao_id": "P-0062",
+        "resultado": "acertou",
+        "valor": 1.0,
+        "evidencia_link": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+        "data": "2026-11-04",
+        "autor": "Historiador",
+        "criado_em": "2026-11-10 13:27:16",
+        "status": "final",
+        "valor_observado": null,
+        "data_valor": "2026-11-04",
+        "serie": null,
+        "fechado_por": null,
+        "fechado_em": null
+      },
       "calc": {
         "publicado": 50.0,
         "centro": 50.0,
@@ -31,11 +46,26 @@
       "escala": "brasil",
       "prazo": "2026-11-05",
       "criterio": "Comunicado do Copom (bcb.gov.br/controleinflacao/comunicadoscopom): meta decidida = 13,75%",
-      "status": "publicada",
+      "status": "conferida",
       "prob": 63.0,
       "adv": 63.0,
       "critica": "Opções Copom B3 de 26/10 dão manter 63,1%; taxa base de ~14% de pausa no 5º corte não vale após choque cambial de 9%",
-      "conf": null,
+      "conf": {
+        "id": "CF-0001",
+        "previsao_id": "P-0001",
+        "resultado": "acertou",
+        "valor": 1.0,
+        "evidencia_link": "https://www.bcb.gov.br/content/copom/atascopom/Copom282-not20261104282.pdf",
+        "data": "2026-11-04",
+        "autor": "Historiador",
+        "criado_em": "2026-11-10 13:27:16",
+        "status": "final",
+        "valor_observado": null,
+        "data_valor": "2026-11-04",
+        "serie": null,
+        "fechado_por": null,
+        "fechado_em": null
+      },
       "calc": {
         "publicado": 63.0,
         "centro": 63.0,
@@ -2210,5 +2240,5 @@
     }
   ],
   "ciclos": [],
-  "gerado": "2026-11-10T12:51:43.945644-03:00"
+  "gerado": "2026-11-10T13:27:23.291084-03:00"
 }
