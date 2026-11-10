@@ -99,12 +99,28 @@
       "escala": "global",
       "prazo": "2026-11-15",
       "criterio": "painel de uso, página de status ou post oficial: >= 1 anúncio de reset ou crédito; medidor voltando sem anúncio não conta",
-      "status": "publicada",
+      "status": "conferida",
       "prob": 25.0,
       "adv": 25.0,
       "critica": "Se foi aperto de propósito, nada a devolver; se falha do painel, medidor volta sem anúncio; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-grok-bot-custo.md",
-      "conf": null,
-      "brier": null,
+      "conf": {
+        "id": "CF-0003",
+        "previsao_id": "P-0075",
+        "resultado": "acertou",
+        "valor": 1.0,
+        "evidencia_link": "https://x.com/bot/status/2119871982946971659",
+        "data": "2026-11-09",
+        "autor": "Historiador",
+        "criado_em": "2026-11-10 13:41:49",
+        "status": "final",
+        "valor_observado": null,
+        "data_valor": "2026-11-09",
+        "serie": null,
+        "fechado_por": null,
+        "fechado_em": null,
+        "motivo_erro": "subestimamos: 2 resets avulsos anteriores (26/08 e 02/10) já indicavam o hábito da xAI de resetar para todos, e a gente não considerou"
+      },
+      "brier": 0.5625,
       "calc": {
         "publicado": 25.0,
         "centro": 25.0,
@@ -114,7 +130,17 @@
         "revisao": false
       },
       "links": [],
-      "historico": [],
+      "historico": [
+        {
+          "alvo_id": "P-0075",
+          "campo": "conferência",
+          "antes": null,
+          "depois": "acertou",
+          "motivo": "conferência antecipada: evento ocorreu antes do prazo",
+          "autor": "Historiador",
+          "quando": "2026-11-10 13:41:49"
+        }
+      ],
       "apoios": "S-0208,S-0210"
     },
     {
@@ -2474,14 +2500,14 @@
     }
   ],
   "placar": {
-    "conferidas": 2,
-    "brier_medio": 0.19345,
+    "conferidas": 3,
+    "brier_medio": 0.3164666666666667,
     "boas": 1,
-    "ruins": 0,
+    "ruins": 1,
     "no_limite": 1,
     "vencidas_sem_conferencia": 0,
     "pendentes": []
   },
   "ciclos": [],
-  "gerado": "2026-11-10T13:39:28.156142-03:00"
+  "gerado": "2026-11-10T13:42:09.872797-03:00"
 }
