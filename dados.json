@@ -25,8 +25,10 @@
         "data_valor": "2026-11-04",
         "serie": null,
         "fechado_por": null,
-        "fechado_em": null
+        "fechado_em": null,
+        "motivo_erro": null
       },
+      "brier": 0.25,
       "calc": {
         "publicado": 50.0,
         "centro": 50.0,
@@ -64,8 +66,10 @@
         "data_valor": "2026-11-04",
         "serie": null,
         "fechado_por": null,
-        "fechado_em": null
+        "fechado_em": null,
+        "motivo_erro": null
       },
+      "brier": 0.1369,
       "calc": {
         "publicado": 63.0,
         "centro": 63.0,
@@ -100,6 +104,7 @@
       "adv": 25.0,
       "critica": "Se foi aperto de propósito, nada a devolver; se falha do painel, medidor volta sem anúncio; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-grok-bot-custo.md",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 25.0,
         "centro": 25.0,
@@ -124,6 +129,7 @@
       "adv": 88.0,
       "critica": "Guia da própria NVIDIA (26/08/2026): Q3 FY27 = US$108,0 bi ±2% sobre Q2 de 96,2 bi = +12,3%; o limiar de 10% (105,8 bi) fica abaixo até do piso do guia; analistas esperavam 104,2 e o guia veio acima; a empresa costuma bater o meio do guia",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 65.0,
         "centro": 65.0,
@@ -158,6 +164,7 @@
       "adv": 70.0,
       "critica": "Aguenta: taxa base condicional 12/16 (75%) e câmbio empurra pra cima; risco é parte do repasse de 26/10 cair fora da janela de coleta",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 70.0,
         "centro": 70.0,
@@ -192,6 +199,7 @@
       "adv": 80.0,
       "critica": "No Novo Caged (2020-2025) set, out e nov foram positivos todo ano; negativos só em recessão (2015-16); agosto/2026 +165.827",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 72.0,
         "centro": 72.0,
@@ -226,6 +234,7 @@
       "adv": 40.0,
       "critica": "Limiar de 2 p.p. num ano é movimento grande; taxa base é calculável dos microdados de 2021-2025 (quantas vezes caiu ≥2 p.p. antes da IA) e não foi calculada; telemarketing pode encolher pra todas as idades sem mexer na participação; escolha das 2 CBOs mais expostas",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 55.00000000000001,
         "centro": 55.00000000000001,
@@ -260,6 +269,7 @@
       "adv": 45.0,
       "critica": "Ritmo de 5-6 semanas vale só pros 3 últimos modelos; 4.1→4.20 ~4 meses e 4.20→4.5 120 dias; 42 dias desde o 4.7 com atraso admitido; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-grok-48-49-5.md",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 45.0,
         "centro": 45.0,
@@ -284,6 +294,7 @@
       "adv": 50.0,
       "critica": "Aguenta; risco de adiamento pelo tombo de 30/10; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-ia-novembro.md",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 55.00000000000001,
         "centro": 55.00000000000001,
@@ -308,6 +319,7 @@
       "adv": 50.0,
       "critica": "Aguenta se contar só de 02/11 e exigir mudança nova ou números; o aperto provavelmente já ocorreu em 01/11; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-grok-bot-custo.md",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 50.0,
         "centro": 50.0,
@@ -332,6 +344,7 @@
       "adv": 45.0,
       "critica": "7 entradas no registro em 12 meses dão ~36% pra janela de 23 dias; ritmo desde 31/07 daria ~69%; seca de 145 dias entre dez/25 e abr/26. Correlacionada com P-0079 (não contar como evidência independente). Aguenta em 45%",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 45.0,
         "centro": 45.0,
@@ -356,6 +369,7 @@
       "adv": 42.0,
       "critica": "Subir qualquer valor ocorreu em 9/16 anos (56%) e o limiar de +1,49% é quase o dobro da mediana de +0,8%, então não pode ficar acima de 56%",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 45.0,
         "centro": 45.0,
@@ -390,6 +404,7 @@
       "adv": 93.0,
       "critica": "Nada contra no prazo; o rascunho admite não ter lido o texto consolidado artigo a artigo, e a definição de \"conteúdo sintético preexistente\" pode não bater com o texto",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 95.0,
         "centro": 95.0,
@@ -424,6 +439,7 @@
       "adv": 85.0,
       "critica": "[Google, consulta 01/11/26](https://ai.google.dev/gemini-api/docs/pricing): Standard custa US$2/10 hoje e já anuncia US$4/20 para 01/12/26. Anúncio está decidido, execução futura não. Logo, pouca informação nova; não prova alta geral do custo de IA.",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 90.0,
         "centro": 90.0,
@@ -448,6 +464,7 @@
       "adv": 57.99999999999999,
       "critica": "Subvenção de R$2,12 prorrogada em 27/10 por 30 dias vence perto de 26/11, colada na semana medida; governo acabou de prorrogar pra segurar preço; taxa base 8/13 é fraca sem reajuste Petrobras",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 57.99999999999999,
         "centro": 57.99999999999999,
@@ -482,6 +499,7 @@
       "adv": 92.0,
       "critica": "[BLS, agenda consultada 01/11/26](https://www.bls.gov/schedule/news_release/prod2.htm): Q3 preliminar sai em 05/11 e revisado em 08/12. Portanto o resultado NÃO é conhecido hoje; a revisão está antes do prazo 15/12.",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 85.0,
         "centro": 85.0,
@@ -506,6 +524,7 @@
       "adv": 60.0,
       "critica": "[BLS, 03/09/26](https://www.bls.gov/news.release/prod2.nr0.htm): labor share nonfarm business 52,8%, mínimo desde 1947, só 0,2 p.p. abaixo do corte. Revisão do produto/renda ou recuperação salarial basta para mudar o resultado.",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 65.0,
         "centro": 65.0,
@@ -530,6 +549,7 @@
       "adv": 30.0,
       "critica": "Aguenta: S-1 público em 26/10 e roadshow reportado na semana de 9/11 dão folga até dezembro, mas a janela útil encolhe pra ~4 semanas por causa do fim de ano; receita +45% sequencial sustenta demanda pela oferta",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 30.0,
         "centro": 30.0,
@@ -564,6 +584,7 @@
       "adv": 75.0,
       "critica": "Aguenta: a ~40% abaixo do pico, o índice precisa subir ~17% sustentado até meados de dezembro pra falhar; o STAR50 já fez altas assim em semanas com estímulo do governo (set/2024), então o risco é real mas minoritário; o nível de 40% é de 26/10 e o pico numérico não foi encontrado, então confira o fechamento atual antes de publicar",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 75.0,
         "centro": 75.0,
@@ -598,6 +619,7 @@
       "adv": 97.0,
       "critica": "24/24 é mecanismo estrutural (fim de temporários, ano letivo, entressafra), não moeda; Laplace trata como sorteio e subestima",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 96.0,
         "centro": 96.0,
@@ -632,6 +654,7 @@
       "adv": 65.0,
       "critica": "Números somados atuais (411+1.103+1.549) já passam de 1.000, então a perna de vagas depende de haver boletim das 3 agências na mesma semana; Caged municipal é fonte única e ruidoso (Rondon -76 com centenas de vagas)",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 65.0,
         "centro": 65.0,
@@ -666,6 +689,7 @@
       "adv": 5.0,
       "critica": "Restrição chinesa pode já estar valendo antes de 01/11 (\"passará a\" fica ambíguo); férias coletivas contam como suspensão? Em embargos passados as empresas redirecionaram vendas e não houve corte de 1.000 no oeste (a confirmar com Historiador)",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 8.0,
         "centro": 8.0,
@@ -700,6 +724,7 @@
       "adv": 5.0,
       "critica": "Corte ≥15% em nov-dez é raro porque a lavoura mal foi plantada e o Deral revisa devagar; em 29/10 previa alta e 88% das lavouras boas; El Niño no PR costuma ser excesso de chuva, que pesa mais na colheita; contraponto: 2023/24 (El Niño) teve perda no oeste por calor (Historiador confirma o tamanho das revisões de nov-dez em 2021 e 2023)",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 10.0,
         "centro": 10.0,
@@ -734,6 +759,7 @@
       "adv": 1.0,
       "critica": "Moody's quase nunca corta 2 níveis sem antes pôr perspectiva negativa ou revisão; o alerta de 27/10 fala em \"ajustes graduais\", nem perspectiva negativa; fonte única (CNN), relatório primário não achado",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 4.0,
         "centro": 4.0,
@@ -768,6 +794,7 @@
       "adv": 2.0,
       "critica": "Ataques de jun/2025 ao Irã: Brent subiu cerca de 10% e devolveu em dias; diesel de bomba no Brasil +20% em semanas só aconteceu em 2022 (Ucrânia), com Brent sustentado bem alto e reajuste grande da Petrobras; alerta da AP é fonte única (dois diplomatas, um veículo)",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 7.000000000000001,
         "centro": 7.000000000000001,
@@ -802,6 +829,7 @@
       "adv": 2.0,
       "critica": "Atribuição técnica pública de IA ofensiva é raríssima no mundo e laudo forense leva meses; exigir ataque E divulgação com laudo dentro de 61 dias derruba a chance",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 4.0,
         "centro": 4.0,
@@ -836,6 +864,7 @@
       "adv": 10.0,
       "critica": "Aguenta o ataque; critério precisa dizer se conta 4.9 renomeado pra 5 (incluído); ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-grok-48-49-5.md",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 10.0,
         "centro": 10.0,
@@ -860,6 +889,7 @@
       "adv": 65.0,
       "critica": "31/12 cai 101 dias após o 4.7, menos que os intervalos de ~4 meses do 1º semestre; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-grok-48-49-5.md",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 65.0,
         "centro": 65.0,
@@ -884,6 +914,7 @@
       "adv": 10.0,
       "critica": "Aguenta o ataque; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-grok-48-49-5.md",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 10.0,
         "centro": 10.0,
@@ -908,6 +939,7 @@
       "adv": 60.0,
       "critica": "Se adiar, dezembro fecha na metade e IPO vai pra 2027; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-ia-novembro.md",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 60.0,
         "centro": 60.0,
@@ -932,6 +964,7 @@
       "adv": 10.0,
       "critica": "Sem parecer do relator, ~6 semanas, vontade do governo só via O Globo; PL das fake news 2023 nunca votado; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-ia-novembro.md",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 10.0,
         "centro": 10.0,
@@ -956,6 +989,7 @@
       "adv": 35.0,
       "critica": "Aguenta; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-ia-novembro.md",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 35.0,
         "centro": 35.0,
@@ -980,6 +1014,7 @@
       "adv": 60.0,
       "critica": "Aguenta até precedente; lançamento sem anúncio citando Brasil não conta; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-ia-novembro.md",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 60.0,
         "centro": 60.0,
@@ -1004,6 +1039,7 @@
       "adv": 35.0,
       "critica": "Fonte agregadora, não Apple; iOS .3 saiu no fim de janeiro nos últimos 3 anos; aprovação chinesa pendente desde 2025; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-ia-novembro.md",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 35.0,
         "centro": 35.0,
@@ -1028,6 +1064,7 @@
       "adv": 80.0,
       "critica": "Critério conta qualquer nome novo; OpenAI soltou Terra e Rosalind em 4 dias; freio pega mais o modelo grande; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-lancamentos-ia.md",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 75.0,
         "centro": 75.0,
@@ -1052,6 +1089,7 @@
       "adv": 40.0,
       "critica": "Começou fechado pra cibersegurança; modelo retido por risco demora mais que 'em breve' comum; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-lancamentos-ia.md",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 35.0,
         "centro": 35.0,
@@ -1076,6 +1114,7 @@
       "adv": 40.0,
       "critica": "Aguenta; dois vazamentos de lugares diferentes, Fable com fonte única; outro nome não conta; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-lancamentos-ia.md",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 30.0,
         "centro": 30.0,
@@ -1100,6 +1139,7 @@
       "adv": 10.0,
       "critica": "DeepSeek diz que o próximo é o V4.1 Pro; único prazo é palpite de banco; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-lancamentos-ia.md",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 10.0,
         "centro": 10.0,
@@ -1124,6 +1164,7 @@
       "adv": 60.0,
       "critica": "Aguenta; anúncio oficial da Meta; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-lancamentos-ia.md",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 60.0,
         "centro": 60.0,
@@ -1148,6 +1189,7 @@
       "adv": 10.0,
       "critica": "Prévia com lista de espera só nos EUA há 11 dias; Brasil raramente na primeira leva; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-lancamentos-ia.md",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 10.0,
         "centro": 10.0,
@@ -1172,6 +1214,7 @@
       "adv": 10.0,
       "critica": "Aguenta; conferir no repositório oficial que o Grok 3 nunca saiu (S-0198 fonte única); ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-grok-local.md",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 10.0,
         "centro": 10.0,
@@ -1196,6 +1239,7 @@
       "adv": 40.0,
       "critica": "Depende do Grok 4.8 rápido (P-0054 65%) e da nota citar a troca; promessa só em post do Musk; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-grok-bot-custo.md",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 40.0,
         "centro": 40.0,
@@ -1220,6 +1264,7 @@
       "adv": 5.0,
       "critica": "Aguenta; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-grok-bot-custo.md",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 5.0,
         "centro": 5.0,
@@ -1244,6 +1289,7 @@
       "adv": 38.0,
       "critica": "Registro oficial (api-docs.deepseek.com/zh-cn/updates.md) não cita V4.1 Pro; frase \"próximo é o V4.1 Pro\" só vem de terceiros (S-0193). Único precedente: V4 Pro saiu 13 dias após o Flash, mas com promessa explícita no registro, que agora não existe; V4.1 Flash já tem 58+ dias sem Pro; V4 Pro mantido na API após 14/09. Critério exige \"V4.1-Pro\" no nome (V4.2/V5 dá NÃO). Aguenta em 38%",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 38.0,
         "centro": 38.0,
@@ -1268,6 +1314,7 @@
       "adv": 80.0,
       "critica": "[Oracle, 10/09/26](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/default.aspx): CFO Q1 FY27 US$23,103 bi, +184%, contra capex US$28,499 bi. CFO também cresce; antecipações podem inverter a diferença no Q2.",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 85.0,
         "centro": 85.0,
@@ -1292,6 +1339,7 @@
       "adv": 80.0,
       "critica": "[CBP, 21/07/26](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/42178c8): adicional de 25% sob 9903.05.01 tem exceções 9903.05.02–09. Evidência confirma instrumento, mas exceções e negociações impedem inferir vigência futura só da nota MDIC.",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 80.0,
         "centro": 80.0,
@@ -1316,6 +1364,7 @@
       "adv": 92.0,
       "critica": "[Amazon, 29/10/26](https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx): AWS +39,3% no Q3/26 confirmado, mas é receita nominal e não compromisso para Q4; base e câmbio podem mudar.",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 85.0,
         "centro": 85.0,
@@ -1340,6 +1389,7 @@
       "adv": 80.0,
       "critica": "O [rascunho, 31/10/26](../../pesquisador-preditivo/previsoes/rascunho-boas-ruins.md) cita 114 casas danificadas no Paraná em 24/10, sem atribuí-las às três cidades. Isso não estima frequência local futura; série municipal de danos: não confirmado.",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 80.0,
         "centro": 80.0,
@@ -1364,6 +1414,7 @@
       "adv": 45.0,
       "critica": "Historiador 31/10: 25/26 teve 2.078 casos, acima da mediana de 1.523, então não foi temporada fraca; só 3 de 7 temporadas (19/20, 23/24, 24/25) passaram de 2.078 e os anos calmos ficam entre 265 e 480; a série é bimodal e vem caindo desde o pico de 23/24",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 57.99999999999999,
         "centro": 57.99999999999999,
@@ -1398,6 +1449,7 @@
       "adv": 65.0,
       "critica": "[Census, 26/05/26](https://www.census.gov/library/stories/2026/05/ai-use-businesses.html): uso oscilou entre 17% e 20% de dez/25 a mai/26, sem mudança significativa nas menores empresas. Planilha do ciclo 202621 e 24,6%: não confirmado na consulta 01/11.",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 75.0,
         "centro": 75.0,
@@ -1422,6 +1474,7 @@
       "adv": 30.0,
       "critica": "PL 2338 aprovado no Senado em dez/2024 e quase 2 anos parado na comissão especial sem parecer; nova legislatura em fev/2027 troca mesa e comissões; precedentes de lei digital grande na Câmara (PL 2630 morreu) são lentos",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 60.0,
         "centro": 60.0,
@@ -1456,6 +1509,7 @@
       "adv": 60.0,
       "critica": "[IEA 2026](https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary), consultada 01/11: prevê falta de HBM até fim de 2027 e dependência de financiamento externo. Projetos anunciados não garantem desembolso no trimestre.",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 65.0,
         "centro": 65.0,
@@ -1480,6 +1534,7 @@
       "adv": 30.0,
       "critica": "2 aberturas em ~31 meses dão ~40% em 8 meses; xAI abre modelo aposentado e o Grok 3 saiu da API em maio; uma promessa furada não deve ancorar; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-grok-local.md",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 30.0,
         "centro": 30.0,
@@ -1504,6 +1559,7 @@
       "adv": 9.0,
       "critica": "Código aberto farto e barato; descompilar binário fechado tem risco jurídico (EULA, DMCA 1201); as 4 revelações de dados de treino conhecidas (YouTube, LibGen, livros Anthropic) foram de conteúdo e vieram por discovery 1-2 anos depois; base em rumor único (S-0260). Aguenta em 9% após corte de 20%",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 9.0,
         "centro": 9.0,
@@ -1528,6 +1584,7 @@
       "adv": 45.0,
       "critica": "[Matéria de 26/10/26](https://revistaespeciais.com.br/noticia/8756/vereadores-de-marechal-rondon-apresentam-26-proposicoes-na-sessao-de-hoje): 453 e 805 dias são números apresentados na proposição, sem definição de pessoas únicas/primeira consulta. Resposta primária: não confirmado.",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 65.0,
         "centro": 65.0,
@@ -1552,6 +1609,7 @@
       "adv": 75.0,
       "critica": "[Focus, base 23/10/26](https://www.bcb.gov.br/content/focus/focus/R20261023.pdf): mediana de PIB/27 é 1,31%; ambiente de desaceleração contraria extrapolar contratações regionais de 2026. Frequência de semestres positivos na dupla: não confirmado.",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 75.0,
         "centro": 75.0,
@@ -1576,6 +1634,7 @@
       "adv": 12.0,
       "critica": "Gatilho (b) não tem série comparável (não encontrado), então na prática só sobra o caminho (a)+(c); o (a) exige corte por demanda fraca E plano seguinte sem alta, muito restrito, e pela defasagem do Historiador o corte vem 1-2 anos após o pico das ações; (c) exige Nasdaq >20% abaixo por 2 meses cheios, o que ocorreu em poucos episódios desde 1990 (2000-02, 2008-09, 2022), ainda a confirmar pelo Historiador",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 25.0,
         "centro": 25.0,
@@ -1610,6 +1669,7 @@
       "adv": 85.0,
       "critica": "O [rascunho de 31/10/26](../../pesquisador-preditivo/previsoes/rascunho-boas-ruins.md) apoia-se só no balanço da 36ª edição. Histórico completo de cancelamentos e orçamento de 2027: não confirmado. Exigir dois veículos específicos acrescenta risco documental.",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 85.0,
         "centro": 85.0,
@@ -1634,6 +1694,7 @@
       "adv": 72.0,
       "critica": "[Focus, base 23/10/26](https://www.bcb.gov.br/content/focus/focus/R20261023.pdf): PIB/27 mediano 1,31% e IPCA/27 4,34%; pouco crescimento e inflação resistente limitam ganho real. Última renda PNAD citada no rascunho: não confirmado nesta consulta.",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 65.0,
         "centro": 65.0,
@@ -1658,6 +1719,7 @@
       "adv": 80.0,
       "critica": "[BCB, 29/10/26](https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202610_Texto_de_estatisticas_fiscais.pdf): DBGG 82,9% em setembro, igual a agosto; juros +0,8 p.p. foram compensados por resgates -0,4 e PIB nominal -0,4.",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 80.0,
         "centro": 80.0,
@@ -1682,6 +1744,7 @@
       "adv": 60.0,
       "critica": "[Focus, base 23/10/26](https://www.bcb.gov.br/content/focus/focus/R20261023.pdf): IPCA/27 subiu de 4,31% há quatro semanas para 4,34%; mediana fica só 0,28 p.p. abaixo de 4,62%. Focus é IPCA de dezembro, não IPCA-15 de novembro.",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 60.0,
         "centro": 60.0,
@@ -1706,6 +1769,7 @@
       "adv": 70.0,
       "critica": "Se empresas já foram habilitadas na época da MP, o \"primeira habilitação na janela\" reduz o grupo; ato pode sair só como ADE da Receita e não ser achado no DOU",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 75.0,
         "centro": 75.0,
@@ -1740,6 +1804,7 @@
       "adv": 45.0,
       "critica": "Serviço D2D lançado no Brasil cobre o país inteiro, então o oeste vem junto; o gargalo é o critério exigir teste independente datado em área rural do oeste, que ninguém é obrigado a fazer",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 55.00000000000001,
         "centro": 55.00000000000001,
@@ -1774,6 +1839,7 @@
       "adv": 65.0,
       "critica": "[Epoch](https://epoch.ai/data/frontier_ai_models.csv), consulta 01/11/26: a própria nota de Astra estima intervalo de ~5e26 a 2e27 FLOP para o ponto 9,4e26. O limiar depende de estimativa incerta, não de treino auditado.",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 75.0,
         "centro": 75.0,
@@ -1798,6 +1864,7 @@
       "adv": 50.0,
       "critica": "[CSV](https://raw.githubusercontent.com/droodman/inference-cost/main/data/cost_truncated_curves.csv), 01/11/26: mínimo confirmado US$0,000288, acc=0,7576 em 198 questões, preço de 03/08/26. Só 0,76 p.p. acima do corte; selecionar o mínimo amplifica ruído.",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 70.0,
         "centro": 70.0,
@@ -1822,6 +1889,7 @@
       "adv": 20.0,
       "critica": "[Epoch](https://epoch.ai/data/frontier_ai_models.csv), 01/11/26: máximo atual 9,4e26 é estimado. Exigir F27/F26≥3,567 em 273 dias compara dois extremos com regressão de sete máximos anuais; novembro/dezembro ainda podem elevar F26.",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 35.0,
         "centro": 35.0,
@@ -1846,6 +1914,7 @@
       "adv": 20.0,
       "critica": "[BLS, 03/09/26](https://www.bls.gov/news.release/prod2.nr0.htm): produtividade interanual +2,2% e ciclo desde 2019 a 2,1% anualizado, abaixo de três leituras >3%.",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 20.0,
         "centro": 20.0,
@@ -1870,6 +1939,7 @@
       "adv": 55.00000000000001,
       "critica": "[H9/2025](https://cetic.br/pt/tics/pesquisa/2025/empresas/H9/), relida em 01/11/26: 17% no total; coleta só em empresas com especialista/área de TI. Aumento até 22% exige 5 p.p.; uma única transição anual não sustenta 70%.",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 70.0,
         "centro": 70.0,
@@ -1894,6 +1964,7 @@
       "adv": 15.0,
       "critica": "[FGV, 23/09/26](https://blogdoibre.fgv.br/posts/resultados-dos-indicadores-de-produtividade-do-trabalho-no-segundo-trimestre-de-2026): hora efetiva +1,0% interanual no Q2/26, +0,4% em 2025; abaixo da exigência >2% persistente.",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 15.0,
         "centro": 15.0,
@@ -1918,6 +1989,7 @@
       "adv": 30.0,
       "critica": "[SENAI, 16/10/26](https://www.senaipr.org.br/tecnologiaeinovacao/blog/cooperativas-apresentam-projetos-de-ia-no-encontro-estadual-de-inovacao-1-36128-500551.shtml): ciclo reuniu 38 cooperativas entre out/24 e out/26; formação e apresentação não demonstram custo unitário menor após 90 dias.",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 35.0,
         "centro": 35.0,
@@ -1942,6 +2014,7 @@
       "adv": 25.0,
       "critica": "[IEA 2026](https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary): capacidade de fábricas de IA mais que triplicou em 18 meses; projetos em execução e demanda combatem parada já em 2027. Consulta 01/11/26.",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 25.0,
         "centro": 25.0,
@@ -1966,6 +2039,7 @@
       "adv": 35.0,
       "critica": "[SENAI, 16/10/26](https://www.senaipr.org.br/tecnologiaeinovacao/blog/cooperativas-apresentam-projetos-de-ia-no-encontro-estadual-de-inovacao-1-36128-500551.shtml): projetos vêm de ciclo iniciado em 2024. Isso não prova implantação iniciada depois de 01/11/26 nem publicação com produção, custos e ajuste de mix.",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 60.0,
         "centro": 60.0,
@@ -1990,6 +2064,7 @@
       "adv": 80.0,
       "critica": "O [rascunho, 31/10/26](../../pesquisador-preditivo/previsoes/rascunho-boas-ruins.md) usa +8,4% no Q2/26, mas testa Q3/27 contra Q3/26, outra base. Dado setorial Q3/26 ainda não disponível na consulta; calendário IBGE indica PIB em 02/12/26.",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 80.0,
         "centro": 80.0,
@@ -2014,6 +2089,7 @@
       "adv": 75.0,
       "critica": "[H9/2025](https://cetic.br/pt/tics/pesquisa/2025/empresas/H9/), consulta 01/11/26: total 17%, pequenas 15%, grandes 50%; filtro de TI limita captação de usos informais. Variação amostral pode manter o total arredondado em 17%.",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 80.0,
         "centro": 80.0,
@@ -2038,6 +2114,7 @@
       "adv": 60.0,
       "critica": "[Relato de 26/10/26](https://portalrondon.com.br/2026/10/video-bpfron-e-policia-federal-apreendem-agrotoxicos-paraguaios-em-porto-mendes/) confirma apreensão anterior à janela, não recorrência. Série municipal e capacidade de cada pacote em kg/L: não confirmado.",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 70.0,
         "centro": 70.0,
@@ -2062,6 +2139,7 @@
       "adv": 75.0,
       "critica": "[Focus, base 23/10/26](https://www.bcb.gov.br/content/focus/focus/R20261023.pdf): Selic/27 caiu de 12% para 11,75%, com respostas de cinco dias em 11,50%. SGS 432 confirmou meta atual 13,75% em 01/11/26; taxa atual não é previsão de fim de 2027.",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 75.0,
         "centro": 75.0,
@@ -2086,6 +2164,7 @@
       "adv": 85.0,
       "critica": "[H9/2025](https://cetic.br/pt/tics/pesquisa/2025/empresas/H9/), consulta 01/11/26: diferença 35 p.p. (50−15). Ferramentas prontas podem estreitá-la; filtro de empresas com TI favorece captar grandes. Não mede diretamente capacidade ou lucro.",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 85.0,
         "centro": 85.0,
@@ -2110,6 +2189,7 @@
       "adv": 15.0,
       "critica": "Aguenta, com critério fechado: modelo oficial xAI sem nuvem; Grok Build com modelo de terceiro não conta; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-grok-local.md",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 15.0,
         "centro": 15.0,
@@ -2134,6 +2214,7 @@
       "adv": 5.0,
       "critica": "Aguenta; ver /workspace/advogado-do-diabo/pesquisas/2026-11-02-critica-grok-local.md",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 5.0,
         "centro": 5.0,
@@ -2158,6 +2239,7 @@
       "adv": 6.0,
       "critica": "Processo exige a empresa saber antes (depende de algo tipo P-0077) e o normal é acordo/licença; nenhuma empresa de software processou laboratório por código até hoje (Historiador); Doe v. GitHub é de programadores e sobre código aberto. Aguenta em 6% após corte de 12%",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 6.0,
         "centro": 6.0,
@@ -2182,6 +2264,7 @@
       "adv": 55.00000000000001,
       "critica": "Limite a 1 ponto do valor de 2026 (52%), dentro do erro da amostra (n~1000, ~2 pp); a alta de 48 para 52 pode ser metade ruído; nos EUA a Pew teve 2 altas com ano seguinte conhecido: 1 continuou, 1 caiu (Historiador)",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 55.00000000000001,
         "centro": 55.00000000000001,
@@ -2206,6 +2289,7 @@
       "adv": 55.00000000000001,
       "critica": "Critério corrigido (só países comuns) tira o efeito de mudar a lista; 5 países ricos subiram 4 a 9 pp (S-0269); aguenta",
       "conf": null,
+      "brier": null,
       "calc": {
         "publicado": 55.00000000000001,
         "centro": 55.00000000000001,
@@ -2239,6 +2323,165 @@
       "melhor_contra": null
     }
   ],
+  "estudos": [
+    {
+      "slug": "ia-empolgacao-paises",
+      "titulo": "IA: empolgação x preocupação em países",
+      "data": "10/11/2026",
+      "status": "virou previsão",
+      "pergunta": "A opinião pública no Brasil e no mundo está mais preocupada do que empolgada com a IA, e essa tendência se mantém na pesquisa Pew de 2027?",
+      "previsoes": "P-0081, P-0082",
+      "ligacoes": "",
+      "critica": "",
+      "resumo": "O estudo concluiu que a preocupação com IA supera a empolgação, com base em três fontes, mas ressalva que parte do racha entre países ricos e emergentes pode ser efeito da amostra online do Ipsos. A âncora é a série Pew, com mesmo método ano a ano. Foram definidas duas previsões para a Pew 2027: Brasil com 50% de chance de atingir 53% ou mais de \"mais preocupados que empolgados\", e mediana global com 55% de chance de ficar em 38% ou mais.",
+      "pngs": []
+    },
+    {
+      "slug": "ia-correlacoes",
+      "titulo": "Uso de IA cruzado com renda, internet e estados (10/11/2026)",
+      "data": "10/11/2026",
+      "status": "concluído, hipóteses em aberto, nenhuma previsão",
+      "pergunta": "Renda, internet e os estados brasileiros explicam a diferença no uso de IA?",
+      "previsoes": "nenhuma",
+      "ligacoes": "E-51 a E-53 e C-139 a C-144",
+      "critica": "/workspace/advogado-do-diabo/pesquisas/2026-11-10-critica-3-achados-ia-correlacoes.md",
+      "resumo": "- Renda e internet explicam 60% da diferença de uso de IA entre 140 países, e o Brasil está no esperado (20% contra 22%).\n- Em pontos, a distância entre os países abre (r=0,80). Em proporção, os de baixo crescem um pouco mais rápido (r=-0,25), então a conclusão depende da medida.\n- A ex-URSS fica toda abaixo do esperado, mas o mais provável é erro de medida da telemetria da Microsoft. O teste limpo é a Armênia, 15 pontos abaixo.\n- Nos estados brasileiros, o r≈0 entre a busca por ChatGPT e a renda é inconclusivo (IC de -0,38 a +0,38).",
+      "pngs": [
+        "g1-divergencia.png",
+        "g2-esperado-real.png",
+        "g3-ufs.png"
+      ]
+    },
+    {
+      "slug": "pliny-engenharia-reversa",
+      "titulo": "Estudo: Engenharia reversa de software por laboratórios de IA",
+      "data": "07/11/2026",
+      "status": "virou previsão (a terceira hipótese, sobre mudança nos termos de uso, ficou parada e não gerou P-)",
+      "pergunta": "Laboratórios de IA usam engenharia reversa de software de terceiros para gerar dados de treino?",
+      "previsoes": "P-0077 a P-0080",
+      "ligacoes": "",
+      "critica": "",
+      "resumo": "O estudo investigou se laboratórios de IA usam engenharia reversa de software alheio para treinar modelos. A capacidade técnica é comprovada (S-0261, SRE-Bench), mas o uso para treino segue como rumor sem fonte (S-0260). As hipóteses H1 e H2 viraram P-0077 e P-0078, publicadas com 9% e 6%. O rascunho da DeepSeek (D1 e D2) virou P-0079 e P-0080. A terceira hipótese, sobre mudança nos termos de uso, ficou parada por falta de registro dos termos atuais.",
+      "pngs": []
+    },
+    {
+      "slug": "semana-02-08nov",
+      "titulo": "Previsões da semana 02-08/11/2026",
+      "data": "02/11/2026",
+      "status": "foi largado",
+      "pergunta": "Qual a avaliação das previsões para a semana de 02 a 08/11/2026?",
+      "previsoes": "nenhuma",
+      "ligacoes": "",
+      "critica": "",
+      "resumo": "O estudo foi largado antes da consolidação; portanto, não há previsões finais. O rascunho listava oito eventos com probabilidades iniciais e ajustes, mas nenhuma previsão foi fechada. Não há conclusão factual a reportar.",
+      "pngs": []
+    },
+    {
+      "slug": "lancamentos-ia",
+      "titulo": "Previsões de lançamentos de IA até 31/12/2026",
+      "data": "02/11/2026",
+      "status": "virou previsão",
+      "pergunta": "Quais lançamentos de IA devem ocorrer até 31/12/2026 e com qual probabilidade?",
+      "previsoes": "P-0063 a P-0068",
+      "ligacoes": "",
+      "critica": "",
+      "resumo": "O estudo consolida seis previsões de lançamentos de IA até 31/12/2026, todas com verificação no fim do ano. A mais provável é o lançamento de pelo menos um modelo novo pela OpenAI (70%), seguida do Muse Wonder no app Muse (60%) e do Gemini 4 Carbon para desenvolvedores (55%). As menos prováveis são o DeepSeek V5 (20%) e o Claude Duet no Brasil (15%). Nenhuma previsão foi confirmada; todas seguem como previsões.",
+      "pngs": []
+    },
+    {
+      "slug": "ia-novembro",
+      "titulo": "Previsões de IA e política para novembro e dezembro de 2026",
+      "data": "02/11/2026",
+      "status": "virou previsão",
+      "pergunta": "Quais eventos de inteligência artificial e política devem ocorrer até o fim de 2026?",
+      "previsoes": "P-0056 a P-0062",
+      "ligacoes": "",
+      "critica": "",
+      "resumo": "O estudo consolida sete previsões sobre eventos de IA e política até o fim de 2026. As maiores probabilidades estão na estreia das ações da Anthropic na Nasdaq até 31/12 (70%) e no lançamento da Apple Intelligence com Qwen na China (65%). Já a aprovação do marco da IA na Câmara é a previsão menos provável (20%). No geral, os eventos de IA têm mais chance de se concretizar do que os de política.",
+      "pngs": []
+    },
+    {
+      "slug": "ia-bolha-v2",
+      "titulo": "IA: a bolha estourou, está perto ou não?",
+      "data": "31/10/2026",
+      "status": "virou previsão",
+      "pergunta": "A bolha de IA estourou, está perto de estourar ou não?",
+      "previsoes": "P-0006 a P-0008",
+      "ligacoes": "",
+      "critica": "",
+      "resumo": "O estudo conclui que, até 31/10/2026, nenhum dos três gatilhos da régua foi comprovado, então a bolha de IA não estourou. Há estresse antecipado no financiamento, com correção de preços mais profunda na China, mas receitas crescentes e aluguel de GPU em alta contrariam reversão operacional imediata. As previsões P-0006 a P-0008 avaliam financiamento, confirmação em 12 meses e persistência da correção chinesa.",
+      "pngs": []
+    },
+    {
+      "slug": "ia-bolha",
+      "titulo": "A bolha da IA: estourou, perto ou não?",
+      "data": "31/10/2026",
+      "status": "foi largado (substituído pela v2, que virou P-0006 a P-0008)",
+      "pergunta": "A bolha da IA estourou, estamos perto ou não?",
+      "previsoes": "nenhuma",
+      "ligacoes": "",
+      "critica": "",
+      "resumo": "A checagem em 31/10/2026 não comprovou nenhum dos gatilhos da régua dos EUA, indicando resposta \"não\" para estouro global. Na China, há correção especulativa de cerca de 40% no STAR50, mas sem retração operacional confirmada, classificada como \"perto\". No Brasil, não há evidência de corte de infraestrutura de IA, resposta \"não\". As previsões originais foram substituídas pela v2, que virou P-0006 a P-0008.",
+      "pngs": []
+    },
+    {
+      "slug": "h01-h05",
+      "titulo": "Estudo de Previsões H-01 a H-05",
+      "data": "31/10/2026",
+      "status": "virou previsão",
+      "pergunta": "Qual a probabilidade de cada um dos cinco cenários delimitados (H-01 a H-05) se confirmar até a respectiva data de conferência?",
+      "previsoes": "P-0001 a P-0005",
+      "ligacoes": "",
+      "critica": "",
+      "resumo": "O estudo estimou a probabilidade de cinco eventos econômicos e sanitários se confirmarem em suas datas de conferência, com valores entre 60% e 70%. A previsão com maior chance é a aceleração do IPCA-15 em novembro (70%); a menor é o preço da soja em R$ 136,00 ou mais (60%). Os demais eventos — Selic, diesel S10 e casos de dengue — ficaram entre 64% e 68%. Os resultados são estimativas subjetivas, não frequências medidas, e dependem da conferência futura. Nenhuma previsão foi confirmada ou descartada até o corte.",
+      "pngs": []
+    },
+    {
+      "slug": "estudo-3partes",
+      "titulo": "Tecnologia, trabalho e riscos de cauda: estudo de previsões",
+      "data": "31/10/2026",
+      "status": "virou previsão",
+      "pergunta": "Quais as chances de eventos específicos em tecnologia, mercado de trabalho brasileiro e riscos de cauda até o fim de 2026 e 2027?",
+      "previsoes": "P-0009 a P-0022",
+      "ligacoes": "",
+      "critica": "",
+      "resumo": "O estudo avaliou 14 cenários em três blocos: inovações tecnológicas, mercado de trabalho brasileiro e riscos de cauda. As previsões mais prováveis são a aplicação da obrigação de marcação de conteúdo sintético na UE (95%) e o saldo negativo do Caged em dezembro (96%). As menos prováveis são os riscos de cauda, com probabilidades entre 4% e 10%. As probabilidades são subjetivas e condicionadas à informação disponível em 31/10/2026; várias lacunas de dados foram identificadas, como taxas base e fontes primárias.",
+      "pngs": []
+    },
+    {
+      "slug": "boas-ruins",
+      "titulo": "Previsões boas e ruins para o painel público",
+      "data": "31/10/2026",
+      "status": "virou previsão",
+      "pergunta": "Quais eventos futuros, 10 favoráveis e 10 desfavoráveis, devem entrar no painel público com probabilidade e critério de conferência?",
+      "previsoes": "P-0032 a P-0051",
+      "ligacoes": "",
+      "critica": "",
+      "resumo": "O estudo selecionou 20 previsões (10 boas e 10 ruins) com probabilidades subjetivas arredondadas entre 60% e 90%, todas com prazo até o fim de 2027 e critérios de conferência definidos. A maioria não tem frequência histórica disponível para o recorte exato; a única taxa base calculada foi a de B-05 (IPCA-15), com 7 de 14 pares de outubro/novembro em queda. As previsões são marginais e não devem ser somadas ou multiplicadas como se fossem independentes. Não há repetição de eventos já previstos em P-0001 a P-0022.",
+      "pngs": []
+    },
+    {
+      "slug": "aceleracao-2027",
+      "titulo": "Aceleração tecnológica em 2027",
+      "data": "31/10/2026",
+      "status": "virou previsão",
+      "pergunta": "A aceleração tecnológica — sobretudo em IA — deve continuar em 2027, com efeitos mensuráveis em compute, custos, investimento e produtividade?",
+      "previsoes": "P-0023 a P-0031",
+      "ligacoes": "",
+      "critica": "",
+      "resumo": "O estudo conclui que os insumos de IA seguem em expansão aproximadamente exponencial: há 75% de chance de o maior compute de treino triplicar até setembro de 2027 e 70% de o custo por questão no GPQA cair a um terço. Já a aceleração sentida na economia é menos provável: 20% para três trimestres de produtividade acima de 3% nos EUA e 15% para o mesmo padrão acima de 2% no Brasil. No oeste do Paraná, a chance de uma cooperativa publicar ganho operacional medido de pelo menos 1% é de 35%. Nenhuma previsão confirma, por si só, uma aceleração geral da capacidade útil ou da produtividade.",
+      "pngs": []
+    }
+  ],
+  "placar": {
+    "conferidas": 2,
+    "brier_medio": 0.19345,
+    "boas": 1,
+    "ruins": 0,
+    "no_limite": 1,
+    "vencidas_sem_conferencia": 0,
+    "pendentes": []
+  },
   "ciclos": [],
-  "gerado": "2026-11-10T13:27:23.291084-03:00"
+  "gerado": "2026-11-10T13:39:28.156142-03:00"
 }
