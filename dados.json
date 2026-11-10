@@ -2149,8 +2149,8 @@
       "criterio": "Pew, mesma pergunta: Brasil >= 53% = SIM, < 53% = NÃO; Brasil fora da pesquisa ou pergunta mudada = anulada",
       "status": "publicada",
       "prob": 55.00000000000001,
-      "adv": null,
-      "critica": null,
+      "adv": 55.00000000000001,
+      "critica": "Limite a 1 ponto do valor de 2026 (52%), dentro do erro da amostra (n~1000, ~2 pp); a alta de 48 para 52 pode ser metade ruído; nos EUA a Pew teve 2 altas com ano seguinte conhecido: 1 continuou, 1 caiu (Historiador)",
       "conf": null,
       "calc": {
         "publicado": 55.00000000000001,
@@ -2173,8 +2173,8 @@
       "criterio": "Pew 2026 e 2027, só países comuns: mediana 2027 - mediana 2026 >= 1 ponto = SIM; sem a pergunta = anulada",
       "status": "publicada",
       "prob": 55.00000000000001,
-      "adv": null,
-      "critica": null,
+      "adv": 55.00000000000001,
+      "critica": "Critério corrigido (só países comuns) tira o efeito de mudar a lista; 5 países ricos subiram 4 a 9 pp (S-0269); aguenta",
       "conf": null,
       "calc": {
         "publicado": 55.00000000000001,
@@ -2210,5 +2210,5 @@
     }
   ],
   "ciclos": [],
-  "gerado": "2026-11-10T12:31:58.365639-03:00"
+  "gerado": "2026-11-10T12:32:35.324613-03:00"
 }
