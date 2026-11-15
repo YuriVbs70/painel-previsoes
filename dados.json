@@ -2527,6 +2527,31 @@
       "links": [],
       "historico": [],
       "apoios": "S-0367"
+    },
+    {
+      "id": "P-0118",
+      "afirmacao": "Marechal Cândido Rondon chega a 300 acessos Starlink de banda larga fixa no dado da Anatel de setembro/2027",
+      "tema": "tecnologia",
+      "escala": "regional",
+      "prazo": "2027-12-31",
+      "criterio": "painel de dados da Anatel, município Marechal Cândido Rondon-PR, Starlink, mês de referência set/2027",
+      "status": "publicada",
+      "prob": 65.0,
+      "adv": null,
+      "critica": null,
+      "conf": null,
+      "brier": null,
+      "calc": {
+        "publicado": 65.0,
+        "centro": 65.0,
+        "min": 65.0,
+        "max": 65.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0368"
     }
   ],
   "hipoteses": [
@@ -2709,5 +2734,5 @@
     "pendentes": []
   },
   "ciclos": [],
-  "gerado": "2026-11-14T21:31:06.238971-03:00"
+  "gerado": "2026-11-14T21:31:44.249402-03:00"
 }
