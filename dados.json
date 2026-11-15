@@ -1674,6 +1674,31 @@
       "apoios": "S-0260,S-0261"
     },
     {
+      "id": "P-0113",
+      "afirmacao": "Uma nave Starship (estágio superior) que já voou e foi recuperada voa de novo até 30/06/2027",
+      "tema": "tecnologia",
+      "escala": "global",
+      "prazo": "2027-06-30",
+      "criterio": "spacex.com ou cobertura (Space.com/Ars) confirmam um voo com uma nave reutilizada até 30/06/2027; booster não conta",
+      "status": "publicada",
+      "prob": 25.0,
+      "adv": null,
+      "critica": null,
+      "conf": null,
+      "brier": null,
+      "calc": {
+        "publicado": 25.0,
+        "centro": 25.0,
+        "min": 25.0,
+        "max": 25.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0357,S-0358,S-0359,S-0360"
+    },
+    {
       "id": "P-0043",
       "afirmacao": "A fila municipal de pessoas aguardando atendimento inicial de fonoaudiologia no SUS de Marechal Cândido Rondon terá pelo menos 200 pacientes na posição de 2027-06-30, documentada até agosto.",
       "tema": "vida cotidiana",
@@ -1722,6 +1747,31 @@
       "links": [],
       "historico": [],
       "apoios": "S-0093,S-0094,S-0095,S-0098,S-0099,S-0100,S-0101,S-0102,E-23,C-48,C-49,C-50,C-51,C-71"
+    },
+    {
+      "id": "P-0116",
+      "afirmacao": "A Starlink chega a 1,4 milhão de acessos de banda larga fixa no Brasil no dado da Anatel de junho/2027",
+      "tema": "tecnologia",
+      "escala": "brasil",
+      "prazo": "2027-09-30",
+      "criterio": "painel de dados da Anatel, banda larga fixa, Starlink, mês de referência jun/2027",
+      "status": "publicada",
+      "prob": 50.0,
+      "adv": null,
+      "critica": null,
+      "conf": null,
+      "brier": null,
+      "calc": {
+        "publicado": 50.0,
+        "centro": 50.0,
+        "min": 50.0,
+        "max": 50.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0366,S-0369"
     },
     {
       "id": "P-0007",
@@ -2402,6 +2452,81 @@
       "links": [],
       "historico": [],
       "apoios": "S-0268,S-0269"
+    },
+    {
+      "id": "P-0114",
+      "afirmacao": "Primeira transferência de combustível entre duas Starships em órbita até 31/12/2027",
+      "tema": "tecnologia",
+      "escala": "global",
+      "prazo": "2027-12-31",
+      "criterio": "NASA ou SpaceX confirmam transferência nave-a-nave em órbita até 31/12/2027; transferência entre tanques da mesma nave não conta",
+      "status": "publicada",
+      "prob": 35.0,
+      "adv": null,
+      "critica": null,
+      "conf": null,
+      "brier": null,
+      "calc": {
+        "publicado": 35.0,
+        "centro": 35.0,
+        "min": 35.0,
+        "max": 35.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0361,S-0362"
+    },
+    {
+      "id": "P-0115",
+      "afirmacao": "12 ou mais voos de Starship em 2027",
+      "tema": "tecnologia",
+      "escala": "global",
+      "prazo": "2027-12-31",
+      "criterio": "contagem de voos de Starship (orbitais ou suborbitais) com lançamento entre 01/01 e 31/12/2027 em lista pública (Wikipedia/thespaceroad)",
+      "status": "publicada",
+      "prob": 15.0,
+      "adv": null,
+      "critica": null,
+      "conf": null,
+      "brier": null,
+      "calc": {
+        "publicado": 15.0,
+        "centro": 15.0,
+        "min": 15.0,
+        "max": 15.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0359,S-0360,S-0358"
+    },
+    {
+      "id": "P-0117",
+      "afirmacao": "A Starlink chega a 80 mil acessos de banda larga fixa no Paraná no dado da Anatel de setembro/2027",
+      "tema": "tecnologia",
+      "escala": "regional",
+      "prazo": "2027-12-31",
+      "criterio": "painel de dados da Anatel, UF PR, Starlink, mês de referência set/2027",
+      "status": "publicada",
+      "prob": 50.0,
+      "adv": null,
+      "critica": null,
+      "conf": null,
+      "brier": null,
+      "calc": {
+        "publicado": 50.0,
+        "centro": 50.0,
+        "min": 50.0,
+        "max": 50.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0367"
     }
   ],
   "hipoteses": [
@@ -2584,5 +2709,5 @@
     "pendentes": []
   },
   "ciclos": [],
-  "gerado": "2026-11-14T21:30:11.239769-03:00"
+  "gerado": "2026-11-14T21:31:06.238971-03:00"
 }
