@@ -1329,6 +1329,56 @@
       "apoios": "S-0193,S-0263,S-0166"
     },
     {
+      "id": "P-0110",
+      "afirmacao": "A Z.ai lança um modelo chamado GLM-5.5 (nota oficial, ID de API ou pesos) até 31/12/2026",
+      "tema": "IA",
+      "escala": "global",
+      "prazo": "2026-12-31",
+      "criterio": "docs.z.ai/release-notes ou HF zai-org mostram um modelo com o nome GLM-5.5 até 31/12/2026",
+      "status": "publicada",
+      "prob": 40.0,
+      "adv": null,
+      "critica": null,
+      "conf": null,
+      "brier": null,
+      "calc": {
+        "publicado": 40.0,
+        "centro": 40.0,
+        "min": 40.0,
+        "max": 40.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0353,S-0354,S-0355,S-0356,C-192"
+    },
+    {
+      "id": "P-0111",
+      "afirmacao": "A Z.ai lança um novo flagship de texto acima do GLM-5.3 (5.5, 6.0 ou outro número) até 31/12/2026",
+      "tema": "IA",
+      "escala": "global",
+      "prazo": "2026-12-31",
+      "criterio": "docs.z.ai/release-notes: flagship novo até 31/12/2026; variantes Flash/FlashX/Legal do 5.3 não contam",
+      "status": "publicada",
+      "prob": 60.0,
+      "adv": null,
+      "critica": null,
+      "conf": null,
+      "brier": null,
+      "calc": {
+        "publicado": 60.0,
+        "centro": 60.0,
+        "min": 60.0,
+        "max": 60.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0353,S-0356"
+    },
+    {
       "id": "P-0050",
       "afirmacao": "No segundo trimestre fiscal de 2027 da Oracle, o desembolso de capital será maior que o caixa líquido gerado pelas operações.",
       "tema": "economia",
@@ -1427,6 +1477,31 @@
       "links": [],
       "historico": [],
       "apoios": "S-0027,S-0028,S-0029,S-0110,S-0111,E-07,C-10,C-15,C-53"
+    },
+    {
+      "id": "P-0112",
+      "afirmacao": "O próximo flagship da Z.ai, lançado até 31/03/2027, fica em 1º entre os modelos de pesos abertos no Artificial Analysis Intelligence Index até 30 dias depois do lançamento",
+      "tema": "IA",
+      "escala": "global",
+      "prazo": "2027-04-30",
+      "criterio": "artificialanalysis.ai, filtro open weights, índice v5 ou o que estiver em vigor; sem lançamento até 31/03/2027 = falso",
+      "status": "publicada",
+      "prob": 15.0,
+      "adv": null,
+      "critica": null,
+      "conf": null,
+      "brier": null,
+      "calc": {
+        "publicado": 15.0,
+        "centro": 15.0,
+        "min": 15.0,
+        "max": 15.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0351,S-0352"
     },
     {
       "id": "P-0005",
@@ -2509,5 +2584,5 @@
     "pendentes": []
   },
   "ciclos": [],
-  "gerado": "2026-11-14T11:18:13.689933-03:00"
+  "gerado": "2026-11-14T21:28:37.122967-03:00"
 }
