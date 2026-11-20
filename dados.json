@@ -2730,9 +2730,16 @@
     "boas": 1,
     "ruins": 1,
     "no_limite": 1,
-    "vencidas_sem_conferencia": 0,
-    "pendentes": []
+    "vencidas_sem_conferencia": 1,
+    "pendentes": [
+      {
+        "id": "P-0009",
+        "afirmacao": "A NVIDIA publicará em 17/11/2026 resultados do 3º trimestre fiscal de 2027 com receita consolidada pelo menos 10% superior à do trimestre fiscal imediatamente anterior.",
+        "prazo": "2026-11-17",
+        "status": "publicada"
+      }
+    ]
   },
   "ciclos": [],
-  "gerado": "2026-11-17T17:09:27.938940-03:00"
+  "gerado": "2026-11-20T15:10:14.144486-03:00"
 }
