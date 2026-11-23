@@ -1495,6 +1495,31 @@
       "apoios": "S-0373,S-0376"
     },
     {
+      "id": "P-0125",
+      "afirmacao": "Preço médio do diesel S10 na bomba no Brasil fica em R$ 7,65/l ou mais em alguma semana entre 23/11/2026 e 31/03/2027",
+      "tema": "economia",
+      "escala": "brasil",
+      "prazo": "2027-03-31",
+      "criterio": "Levantamento semanal de preços da ANP (média Brasil, diesel S10); acerto se alguma semana até 31/03/2027 marcar >= R$ 7,65/l",
+      "status": "publicada",
+      "prob": 45.0,
+      "adv": null,
+      "critica": null,
+      "conf": null,
+      "brier": null,
+      "calc": {
+        "publicado": 45.0,
+        "centro": 45.0,
+        "min": 45.0,
+        "max": 45.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0389,S-0390,S-0391,S-0392"
+    },
+    {
       "id": "P-0042",
       "afirmacao": "Ao menos 1 residência em Marechal Cândido Rondon, Toledo ou Cascavel terá dano material causado por vendaval, granizo ou inundação ocorridos entre 2026-11-01 e 2027-03-31, registrado oficialmente até abril/2027.",
       "tema": "clima",
@@ -1578,6 +1603,31 @@
         }
       ],
       "apoios": ""
+    },
+    {
+      "id": "P-0124",
+      "afirmacao": "O índice RONI oficial da NOAA chega a +2,5 °C ou mais em algum trimestre móvel do El Niño 2026-27 (recorde desde 1950)",
+      "tema": "clima",
+      "escala": "global",
+      "prazo": "2027-05-31",
+      "criterio": "Tabela RONI da NOAA CPC consultada em 31/05/2027; acerto se algum trimestre móvel de 2026-27 marcar >= +2,5",
+      "status": "publicada",
+      "prob": 40.0,
+      "adv": null,
+      "critica": null,
+      "conf": null,
+      "brier": null,
+      "calc": {
+        "publicado": 40.0,
+        "centro": 40.0,
+        "min": 40.0,
+        "max": 40.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0387,S-0388"
     },
     {
       "id": "P-0039",
@@ -1765,6 +1815,31 @@
       "apoios": "S-0377,S-0378"
     },
     {
+      "id": "P-0123",
+      "afirmacao": "Ureia granulada CFR Brasil tem cotação semanal (ponto médio da faixa) de US$ 540/t ou mais em alguma semana entre 23/11/2026 e 30/06/2027",
+      "tema": "economia",
+      "escala": "brasil",
+      "prazo": "2027-06-30",
+      "criterio": "Cotação semanal CFR Brasil da ureia granulada publicada na imprensa agro (Nobel Report, Argus ou StoneX); acerto se o ponto médio da faixa for >= US$ 540/t em alguma semana até 30/06/2027",
+      "status": "publicada",
+      "prob": 30.0,
+      "adv": null,
+      "critica": null,
+      "conf": null,
+      "brier": null,
+      "calc": {
+        "publicado": 30.0,
+        "centro": 30.0,
+        "min": 30.0,
+        "max": 30.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0384,S-0385,S-0386,S-0391,C-208"
+    },
+    {
       "id": "P-0043",
       "afirmacao": "A fila municipal de pessoas aguardando atendimento inicial de fonoaudiologia no SUS de Marechal Cândido Rondon terá pelo menos 200 pacientes na posição de 2027-06-30, documentada até agosto.",
       "tema": "vida cotidiana",
@@ -1838,6 +1913,31 @@
       "links": [],
       "historico": [],
       "apoios": "S-0366,S-0369"
+    },
+    {
+      "id": "P-0126",
+      "afirmacao": "A estimativa populacional do IBGE de 01/07/2027 mostra o Rio de Janeiro com menos de 17.225.410 habitantes (queda frente a 2026)",
+      "tema": "cultura",
+      "escala": "brasil",
+      "prazo": "2027-09-30",
+      "criterio": "Estimativa populacional do IBGE de 01/07/2027 (publicada ~ago/2027); acerto se o RJ tiver < 17.225.410 habitantes",
+      "status": "publicada",
+      "prob": 40.0,
+      "adv": null,
+      "critica": null,
+      "conf": null,
+      "brier": null,
+      "calc": {
+        "publicado": 40.0,
+        "centro": 40.0,
+        "min": 40.0,
+        "max": 40.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0393"
     },
     {
       "id": "P-0007",
@@ -2850,5 +2950,5 @@
     "pendentes": []
   },
   "ciclos": [],
-  "gerado": "2026-11-23T16:38:12.814495-03:00"
+  "gerado": "2026-11-23T16:42:32.064784-03:00"
 }
