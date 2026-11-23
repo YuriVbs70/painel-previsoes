@@ -150,12 +150,28 @@
       "escala": "global",
       "prazo": "2026-11-17",
       "criterio": "[NVIDIA, resultados trimestrais](https://investor.nvidia.com/financial-info/quarterly-results-and-annual-reports/default.aspx): receita GAAP consolidada Q3 FY2027 / Q2 FY2027 − 1 ≥ 0,10, e publicação datada de 17/11 nos EUA. Agenda no [comunicado de 28/10](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx). Arquivamento 8-K na [SEC, CIK 1045810](https://www.sec.gov/edgar/browse/?CIK=1045810&owner=exclude) confere o registro, mas replica as contas da empresa; segunda medição independente: não encontrada.",
-      "status": "publicada",
+      "status": "conferida",
       "prob": 65.0,
       "adv": 88.0,
       "critica": "Guia da própria NVIDIA (26/08/2026): Q3 FY27 = US$108,0 bi ±2% sobre Q2 de 96,2 bi = +12,3%; o limiar de 10% (105,8 bi) fica abaixo até do piso do guia; analistas esperavam 104,2 e o guia veio acima; a empresa costuma bater o meio do guia",
-      "conf": null,
-      "brier": null,
+      "conf": {
+        "id": "CF-0004",
+        "previsao_id": "P-0009",
+        "resultado": "acertou",
+        "valor": 1.0,
+        "evidencia_link": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx",
+        "data": "2026-11-17",
+        "autor": "Historiador",
+        "criado_em": "2026-11-23 16:34:33",
+        "status": "final",
+        "valor_observado": null,
+        "data_valor": "2026-11-17",
+        "serie": null,
+        "fechado_por": null,
+        "fechado_em": null,
+        "motivo_erro": "receita Q3 FY27 US$115,8 bi vs Q2 96,2 bi = +20%, publicada 17/11 (8-K SEC e CNBC confirmam); passou com folga do limiar de 10% e até do guia de 108 bi"
+      },
+      "brier": 0.12249999999999998,
       "calc": {
         "publicado": 65.0,
         "centro": 65.0,
@@ -1454,6 +1470,31 @@
       "apoios": "S-0052,S-0060,S-0061,S-0134,S-0136,E-25,C-36,C-39,C-41,C-62,C-63"
     },
     {
+      "id": "P-0119",
+      "afirmacao": "Ação da Anthropic (ANT) fecha algum pregão abaixo de US$ 83 (preço do IPO) entre 20/11/2026 e 31/03/2027",
+      "tema": "tecnologia",
+      "escala": "global",
+      "prazo": "2027-03-31",
+      "criterio": "Nasdaq.com/Yahoo, fechamento diário da ANT < 83,00 em algum pregão até 31/03/2027",
+      "status": "publicada",
+      "prob": 85.0,
+      "adv": null,
+      "critica": null,
+      "conf": null,
+      "brier": null,
+      "calc": {
+        "publicado": 85.0,
+        "centro": 85.0,
+        "min": 85.0,
+        "max": 85.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0373,S-0376"
+    },
+    {
       "id": "P-0042",
       "afirmacao": "Ao menos 1 residência em Marechal Cândido Rondon, Toledo ou Cascavel terá dano material causado por vendaval, granizo ou inundação ocorridos entre 2026-11-01 e 2027-03-31, registrado oficialmente até abril/2027.",
       "tema": "clima",
@@ -1699,6 +1740,31 @@
       "apoios": "S-0357,S-0358,S-0359,S-0360"
     },
     {
+      "id": "P-0121",
+      "afirmacao": "Nasdaq Composite fecha 20% ou mais abaixo da sua máxima histórica de fechamento até 30/06/2027",
+      "tema": "tecnologia",
+      "escala": "global",
+      "prazo": "2027-06-30",
+      "criterio": "FRED NASDAQCOM, fechamento <= 80% da máxima histórica de fechamento em algum dia até 30/06/2027",
+      "status": "publicada",
+      "prob": 35.0,
+      "adv": null,
+      "critica": null,
+      "conf": null,
+      "brier": null,
+      "calc": {
+        "publicado": 35.0,
+        "centro": 35.0,
+        "min": 35.0,
+        "max": 35.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0377,S-0378"
+    },
+    {
       "id": "P-0043",
       "afirmacao": "A fila municipal de pessoas aguardando atendimento inicial de fonoaudiologia no SUS de Marechal Cândido Rondon terá pelo menos 200 pacientes na posição de 2027-06-30, documentada até agosto.",
       "tema": "vida cotidiana",
@@ -1807,6 +1873,31 @@
         }
       ],
       "apoios": "S-0041,S-0048,S-0051,C-36,C-37"
+    },
+    {
+      "id": "P-0120",
+      "afirmacao": "Ação da Anthropic (ANT) fecha algum pregão abaixo de US$ 58,30 (-40% do fechamento do 1º dia, US$ 97,17) até 19/11/2027",
+      "tema": "tecnologia",
+      "escala": "global",
+      "prazo": "2027-11-19",
+      "criterio": "Nasdaq.com/Yahoo, fechamento diário da ANT < 58,30 em algum pregão até 19/11/2027",
+      "status": "publicada",
+      "prob": 40.0,
+      "adv": null,
+      "critica": null,
+      "conf": null,
+      "brier": null,
+      "calc": {
+        "publicado": 40.0,
+        "centro": 40.0,
+        "min": 40.0,
+        "max": 40.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0376,S-0377"
     },
     {
       "id": "P-0032",
@@ -2552,6 +2643,31 @@
       "links": [],
       "historico": [],
       "apoios": "S-0368"
+    },
+    {
+      "id": "P-0122",
+      "afirmacao": "OpenAI precifica IPO numa bolsa dos EUA até 31/12/2027",
+      "tema": "tecnologia",
+      "escala": "global",
+      "prazo": "2027-12-31",
+      "criterio": "Reuters/CNBC ou comunicado da OpenAI, IPO precificado >= 1 vez numa bolsa dos EUA até 31/12/2027",
+      "status": "publicada",
+      "prob": 40.0,
+      "adv": null,
+      "critica": null,
+      "conf": null,
+      "brier": null,
+      "calc": {
+        "publicado": 40.0,
+        "centro": 40.0,
+        "min": 40.0,
+        "max": 40.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0380"
     }
   ],
   "hipoteses": [
@@ -2725,21 +2841,14 @@
     }
   ],
   "placar": {
-    "conferidas": 3,
-    "brier_medio": 0.3164666666666667,
-    "boas": 1,
+    "conferidas": 4,
+    "brier_medio": 0.267975,
+    "boas": 2,
     "ruins": 1,
     "no_limite": 1,
-    "vencidas_sem_conferencia": 1,
-    "pendentes": [
-      {
-        "id": "P-0009",
-        "afirmacao": "A NVIDIA publicará em 17/11/2026 resultados do 3º trimestre fiscal de 2027 com receita consolidada pelo menos 10% superior à do trimestre fiscal imediatamente anterior.",
-        "prazo": "2026-11-17",
-        "status": "publicada"
-      }
-    ]
+    "vencidas_sem_conferencia": 0,
+    "pendentes": []
   },
   "ciclos": [],
-  "gerado": "2026-11-23T01:12:44.964392-03:00"
+  "gerado": "2026-11-23T16:34:53.393335-03:00"
 }
