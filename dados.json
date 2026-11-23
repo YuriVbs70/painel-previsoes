@@ -1630,6 +1630,31 @@
       "apoios": "S-0387,S-0388"
     },
     {
+      "id": "P-0127",
+      "afirmacao": "O índice RONI oficial da NOAA chega a +2,5 °C ou mais em algum trimestre móvel do El Niño 2026-27 (recorde desde 1950) — versão 2, revisa P-0124",
+      "tema": "clima",
+      "escala": "global",
+      "prazo": "2027-05-31",
+      "criterio": "Tabela RONI da NOAA CPC consultada em 31/05/2027; acerto se algum trimestre móvel de 2026-27 marcar >= +2,5",
+      "status": "publicada",
+      "prob": 30.0,
+      "adv": null,
+      "critica": null,
+      "conf": null,
+      "brier": null,
+      "calc": {
+        "publicado": 30.0,
+        "centro": 30.0,
+        "min": 30.0,
+        "max": 30.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0387,S-0388"
+    },
+    {
       "id": "P-0039",
       "afirmacao": "A proporção nacional de empresas dos EUA que declaram uso de IA nas duas semanas anteriores superará 24,6% na primeira divulgação BTOS publicada em maio/2027.",
       "tema": "IA",
@@ -1923,8 +1948,8 @@
       "criterio": "Estimativa populacional do IBGE de 01/07/2027 (publicada ~ago/2027); acerto se o RJ tiver < 17.225.410 habitantes",
       "status": "publicada",
       "prob": 40.0,
-      "adv": null,
-      "critica": null,
+      "adv": 15.0,
+      "critica": "Projeção IBGE (revisão 2024, vigente) põe pico do RJ em 2027 com 17.225.576, +166 sobre a estimativa de 2026 (17.225.410); queda só em 2028; estimativa anual por UF segue a projeção",
       "conf": null,
       "brier": null,
       "calc": {
@@ -1932,6 +1957,31 @@
         "centro": 40.0,
         "min": 40.0,
         "max": 40.0,
+        "contribuicoes": [],
+        "revisao": false
+      },
+      "links": [],
+      "historico": [],
+      "apoios": "S-0393"
+    },
+    {
+      "id": "P-0128",
+      "afirmacao": "A estimativa populacional do IBGE de 01/07/2027 mostra o Rio de Janeiro com menos de 17.225.410 habitantes (queda frente a 2026) — versão 2, revisa P-0126",
+      "tema": "cultura",
+      "escala": "brasil",
+      "prazo": "2027-09-30",
+      "criterio": "Estimativa populacional do IBGE de 01/07/2027 (publicada ~ago/2027); acerto se o RJ tiver < 17.225.410 habitantes",
+      "status": "publicada",
+      "prob": 25.0,
+      "adv": null,
+      "critica": null,
+      "conf": null,
+      "brier": null,
+      "calc": {
+        "publicado": 25.0,
+        "centro": 25.0,
+        "min": 25.0,
+        "max": 25.0,
         "contribuicoes": [],
         "revisao": false
       },
@@ -2950,5 +3000,5 @@
     "pendentes": []
   },
   "ciclos": [],
-  "gerado": "2026-11-23T16:42:32.064784-03:00"
+  "gerado": "2026-11-23T16:42:56.924695-03:00"
 }
