@@ -1973,8 +1973,8 @@
       "criterio": "Estimativa populacional do IBGE de 01/07/2027 (publicada ~ago/2027); acerto se o RJ tiver < 17.225.410 habitantes",
       "status": "publicada",
       "prob": 25.0,
-      "adv": null,
-      "critica": null,
+      "adv": 5.0,
+      "critica": "Checagem 24/11: estimativas IBGE do RJ de 2024, 2025 e 2026 batem no número exato com a projeção (revisão 2024); projeção 2027 = 17.225.576 (+166), queda só em 2028",
       "conf": null,
       "brier": null,
       "calc": {
@@ -3000,5 +3000,5 @@
     "pendentes": []
   },
   "ciclos": [],
-  "gerado": "2026-11-23T16:42:56.924695-03:00"
+  "gerado": "2026-11-24T09:39:36.377932-03:00"
 }
