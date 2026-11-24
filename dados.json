@@ -1940,56 +1940,6 @@
       "apoios": "S-0366,S-0369"
     },
     {
-      "id": "P-0126",
-      "afirmacao": "A estimativa populacional do IBGE de 01/07/2027 mostra o Rio de Janeiro com menos de 17.225.410 habitantes (queda frente a 2026)",
-      "tema": "cultura",
-      "escala": "brasil",
-      "prazo": "2027-09-30",
-      "criterio": "Estimativa populacional do IBGE de 01/07/2027 (publicada ~ago/2027); acerto se o RJ tiver < 17.225.410 habitantes",
-      "status": "publicada",
-      "prob": 40.0,
-      "adv": 15.0,
-      "critica": "Projeção IBGE (revisão 2024, vigente) põe pico do RJ em 2027 com 17.225.576, +166 sobre a estimativa de 2026 (17.225.410); queda só em 2028; estimativa anual por UF segue a projeção",
-      "conf": null,
-      "brier": null,
-      "calc": {
-        "publicado": 40.0,
-        "centro": 40.0,
-        "min": 40.0,
-        "max": 40.0,
-        "contribuicoes": [],
-        "revisao": false
-      },
-      "links": [],
-      "historico": [],
-      "apoios": "S-0393"
-    },
-    {
-      "id": "P-0128",
-      "afirmacao": "A estimativa populacional do IBGE de 01/07/2027 mostra o Rio de Janeiro com menos de 17.225.410 habitantes (queda frente a 2026) — versão 2, revisa P-0126",
-      "tema": "cultura",
-      "escala": "brasil",
-      "prazo": "2027-09-30",
-      "criterio": "Estimativa populacional do IBGE de 01/07/2027 (publicada ~ago/2027); acerto se o RJ tiver < 17.225.410 habitantes",
-      "status": "publicada",
-      "prob": 25.0,
-      "adv": 5.0,
-      "critica": "Checagem 24/11: estimativas IBGE do RJ de 2024, 2025 e 2026 batem no número exato com a projeção (revisão 2024); projeção 2027 = 17.225.576 (+166), queda só em 2028",
-      "conf": null,
-      "brier": null,
-      "calc": {
-        "publicado": 25.0,
-        "centro": 25.0,
-        "min": 25.0,
-        "max": 25.0,
-        "contribuicoes": [],
-        "revisao": false
-      },
-      "links": [],
-      "historico": [],
-      "apoios": "S-0393"
-    },
-    {
       "id": "P-0007",
       "afirmacao": "EUA atingem 2 dos 3 gatilhos da régua da bolha de IA (corte de capex por demanda fraca; receita de IA parada 2 tri; Nasdaq Composite >20% abaixo do pico por 2 meses) até 31/10/2027",
       "tema": "IA",
@@ -3000,5 +2950,5 @@
     "pendentes": []
   },
   "ciclos": [],
-  "gerado": "2026-11-24T09:39:36.377932-03:00"
+  "gerado": "2026-11-24T09:43:05.080934-03:00"
 }
